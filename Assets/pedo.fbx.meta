@@ -1,0 +1,1693 @@
+fileFormatVersion: 2
+guid: dd7aa3e49295aa645b6951246dcb2c58
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: body
+    100002: chara
+    100004: coat
+    100006: exhib
+    100008: head04
+    100010: joint1
+    100012: joint2
+    100014: PEDO
+    100016: //RootNode
+    100018: PEDO_ExtraNodes
+    100020: PEDO_HeadC_OrientLctr
+    100022: PEDO_lAnkleFKC
+    100024: PEDO_lAnkleFKCG
+    100026: PEDO_lAnkleFKtoIKLctr
+    100028: PEDO_lAnkleFKtoIKLctrG
+    100030: PEDO_lAnkleIKLockLctr
+    100032: PEDO_lAnkleIKtoFKLctr
+    100034: PEDO_lAnkleIKtoFKLctrG
+    100036: PEDO_lAnkleJ
+    100038: PEDO_lAnkleJFK
+    100040: PEDO_lAnkleJFKG1
+    100042: PEDO_lAnkleJFKG2
+    100044: PEDO_lAnkleJIK
+    100046: PEDO_lArmIKFKG
+    100048: PEDO_lArmIKHandle
+    100050: PEDO_lArmLengthEndLctr
+    100052: PEDO_lArmLengthOriginLctr
+    100054: PEDO_lArmSwitchC
+    100056: PEDO_lArmSwitchCG
+    100058: PEDO_lBallFKC
+    100060: PEDO_lBallFKCG
+    100062: PEDO_lBallIKHandle
+    100064: PEDO_lBallJ
+    100066: PEDO_lBallJFK
+    100068: PEDO_lBallJIK
+    100070: PEDO_lBallSwivel
+    100072: PEDO_lClavicleC
+    100074: PEDO_lClavicleCG
+    100076: PEDO_lClavicleJ
+    100078: PEDO_lElbowFKC
+    100080: PEDO_lElbowFKCG
+    100082: PEDO_lElbowIKAimConnectorLctr
+    100084: PEDO_lElbowIKC
+    100086: PEDO_lElbowIKC_TargetLctr
+    100088: PEDO_lElbowIKCG
+    100090: PEDO_lElbowIKConnectorCX
+    100092: PEDO_lElbowIKLockLctr
+    100094: PEDO_lElbowIKTargetConnectorLctr
+    100096: PEDO_lElbowIKtoFKAimLctr
+    100098: PEDO_lElbowJ
+    100100: PEDO_lElbowJFK
+    100102: PEDO_lElbowJFKG1
+    100104: PEDO_lElbowJFKG2
+    100106: PEDO_lElbowJIK
+    100108: PEDO_lFinger1J1
+    100110: PEDO_lFinger1J1C
+    100112: PEDO_lFinger1J1CG
+    100114: PEDO_lFinger1J1CRotG
+    100116: PEDO_lFinger1J2
+    100118: PEDO_lFinger1J2CG
+    100120: PEDO_lFinger1J2CRotG
+    100122: PEDO_lFinger1J3
+    100124: PEDO_lFinger1J3CG
+    100126: PEDO_lFinger1J3CRotG
+    100128: PEDO_lFinger1JTip
+    100130: PEDO_lFootBallPivot
+    100132: PEDO_lFootHeelPivot
+    100134: PEDO_lFootIKC
+    100136: PEDO_lFootIKCG
+    100138: PEDO_lFootInTilt
+    100140: PEDO_lFootOutTilt
+    100142: PEDO_lFootToePivot
+    100144: PEDO_lForearmJ
+    100146: PEDO_lHipFKC
+    100148: PEDO_lHipFKCG
+    100150: PEDO_lHipFKtoIKOrientLctr
+    100152: PEDO_lHipIKLockLctr
+    100154: PEDO_lHipJ
+    100156: PEDO_lHipJFK
+    100158: PEDO_lHipJIK
+    100160: PEDO_lKneeFKC
+    100162: PEDO_lKneeFKCG
+    100164: PEDO_lKneeIKAimConnectorLctr
+    100166: PEDO_lKneeIKC
+    100168: PEDO_lKneeIKC_TargetLctr
+    100170: PEDO_lKneeIKCG
+    100172: PEDO_lKneeIKConnectorCX
+    100174: PEDO_lKneeIKLockLctr
+    100176: PEDO_lKneeIKTargetConnectorLctr
+    100178: PEDO_lKneeIKtoFKAimLctr
+    100180: PEDO_lKneeJ
+    100182: PEDO_lKneeJFK
+    100184: PEDO_lKneeJFKG1
+    100186: PEDO_lKneeJFKG2
+    100188: PEDO_lKneeJIK
+    100190: PEDO_lKneeTargetLockLctr
+    100192: PEDO_lLegIKFKG
+    100194: PEDO_lLegIKHandle
+    100196: PEDO_lLegLengthEndLctr
+    100198: PEDO_lLegLengthOriginLctr
+    100200: PEDO_lLegSwitchC
+    100202: PEDO_lLegSwitchCG
+    100204: PEDO_lPalmC
+    100206: PEDO_lPalmCG
+    100208: PEDO_lPalmJ
+    100210: PEDO_lShoulderFKC
+    100212: PEDO_lShoulderFKCG
+    100214: PEDO_lShoulderFKCG2
+    100216: PEDO_lShoulderFKtoIKOrientLctr
+    100218: PEDO_lShoulderIKLockLctr
+    100220: PEDO_lShoulderJ
+    100222: PEDO_lShoulderJFK
+    100224: PEDO_lShoulderJIK
+    100226: PEDO_lThumbJ1
+    100228: PEDO_lThumbJ1C
+    100230: PEDO_lThumbJ1CG
+    100232: PEDO_lThumbJ1CRotG
+    100234: PEDO_lThumbJ2
+    100236: PEDO_lThumbJ2CG
+    100238: PEDO_lThumbJ2CRotG
+    100240: PEDO_lThumbJ3CG
+    100242: PEDO_lThumbJ3CRotG
+    100244: PEDO_lToeIKC
+    100246: PEDO_lToeIKCG
+    100248: PEDO_lToeIKHandle
+    100250: PEDO_lToeJ
+    100252: PEDO_lToeJFK
+    100254: PEDO_lToeJIK
+    100256: PEDO_lWristFKC
+    100258: PEDO_lWristFKCG
+    100260: PEDO_lWristFKtoIKLctr
+    100262: PEDO_lWristIKC
+    100264: PEDO_lWristIKCG
+    100266: PEDO_lWristIKLockLctr
+    100268: PEDO_lWristIKtoFKLctr
+    100270: PEDO_lWristJ
+    100272: PEDO_lWristJFK
+    100274: PEDO_lWristJFKG1
+    100276: PEDO_lWristJFKG2
+    100278: PEDO_lWristJG1
+    100280: PEDO_lWristJG2
+    100282: PEDO_lWristJIK
+    100284: PEDO_lWristJIKProxy
+    100286: PEDO_lWristJIKProxyG1
+    100288: PEDO_lWristJIKProxyG2
+    100290: PEDO_lWristJProxy
+    100292: PEDO_MainC
+    100294: PEDO_MainHipC
+    100296: PEDO_MainHipCG
+    100298: PEDO_MainHipInvG
+    100300: PEDO_Neck01CurveC
+    100302: PEDO_Neck01CurveCG
+    100304: PEDO_Neck01CurveLctr
+    100306: PEDO_Neck01F
+    100308: PEDO_Neck01FKCG_OrientLctr
+    100310: PEDO_Neck_hairSystemFollicles
+    100312: PEDO_Neck_MidAimLctr
+    100314: PEDO_Neck_MidTargetLctr
+    100316: PEDO_Neck_ribbonBlend
+    100318: PEDO_Neck_ribbonBlend_lCluster
+    100320: PEDO_Neck_ribbonBlend_lClusterG
+    100322: PEDO_Neck_ribbonBlend_rCluster
+    100324: PEDO_Neck_ribbonBlend_rClusterG
+    100326: PEDO_NeckBtmTX_Lctr
+    100328: PEDO_NeckLengthCX
+    100330: PEDO_NeckLengthCXlstr01
+    100332: PEDO_NeckSplineBtm
+    100334: PEDO_NeckSplineTop
+    100336: PEDO_rAnkleFKC
+    100338: PEDO_rAnkleFKCG
+    100340: PEDO_rAnkleFKtoIKLctr
+    100342: PEDO_rAnkleFKtoIKLctrG
+    100344: PEDO_rAnkleIKLockLctr
+    100346: PEDO_rAnkleIKtoFKLctr
+    100348: PEDO_rAnkleIKtoFKLctrTarget
+    100350: PEDO_rAnkleIKtoFKLctrTargetG
+    100352: PEDO_rAnkleJ
+    100354: PEDO_rAnkleJFK
+    100356: PEDO_rAnkleJFKG1
+    100358: PEDO_rAnkleJFKG2
+    100360: PEDO_rAnkleJIK
+    100362: PEDO_rArmIKFKG
+    100364: PEDO_rArmIKHandle
+    100366: PEDO_rArmLengthEndLctr
+    100368: PEDO_rArmLengthOriginLctr
+    100370: PEDO_rArmSwitchC
+    100372: PEDO_rArmSwitchCG
+    100374: PEDO_rBallFKC
+    100376: PEDO_rBallFKCG
+    100378: PEDO_rBallIKHandle
+    100380: PEDO_rBallJ
+    100382: PEDO_rBallJFK
+    100384: PEDO_rBallJIK
+    100386: PEDO_rBallSwivel
+    100388: PEDO_rClavicleC
+    100390: PEDO_rClavicleCG
+    100392: PEDO_rClavicleJ
+    100394: PEDO_rElbowFKC
+    100396: PEDO_rElbowFKCG
+    100398: PEDO_rElbowIKAimConnectorLctr
+    100400: PEDO_rElbowIKC
+    100402: PEDO_rElbowIKC_TargetLctr
+    100404: PEDO_rElbowIKCG
+    100406: PEDO_rElbowIKConnectorCX
+    100408: PEDO_rElbowIKLockLctr
+    100410: PEDO_rElbowIKTargetConnectorLctr
+    100412: PEDO_rElbowIKtoFKAimLctr
+    100414: PEDO_rElbowJ
+    100416: PEDO_rElbowJFK
+    100418: PEDO_rElbowJFKG1
+    100420: PEDO_rElbowJFKG2
+    100422: PEDO_rElbowJIK
+    100424: PEDO_rFinger1J1
+    100426: PEDO_rFinger1J1C
+    100428: PEDO_rFinger1J1CG
+    100430: PEDO_rFinger1J1CRotG
+    100432: PEDO_rFinger1J2
+    100434: PEDO_rFinger1J2CG
+    100436: PEDO_rFinger1J2CRotG
+    100438: PEDO_rFinger1J3
+    100440: PEDO_rFinger1J3CG
+    100442: PEDO_rFinger1J3CRotG
+    100444: PEDO_rFinger1JTip
+    100446: PEDO_rFootBallPivot
+    100448: PEDO_rFootHeelPivot
+    100450: PEDO_rFootIKC
+    100452: PEDO_rFootIKCG
+    100454: PEDO_rFootInTilt
+    100456: PEDO_rFootOutTilt
+    100458: PEDO_rFootToePivot
+    100460: PEDO_rForearmJ
+    100462: PEDO_rHipFKC
+    100464: PEDO_rHipFKCG
+    100466: PEDO_rHipFKtoIKOrientLctr
+    100468: PEDO_rHipIKLockLctr
+    100470: PEDO_rHipJ
+    100472: PEDO_rHipJFK
+    100474: PEDO_rHipJIK
+    100476: PEDO_rKneeFKC
+    100478: PEDO_rKneeFKCG
+    100480: PEDO_rKneeIKAimConnectorLctr
+    100482: PEDO_rKneeIKC
+    100484: PEDO_rKneeIKC_TargetLctr
+    100486: PEDO_rKneeIKCG
+    100488: PEDO_rKneeIKConnectorCX
+    100490: PEDO_rKneeIKLockLctr
+    100492: PEDO_rKneeIKTargetConnectorLctr
+    100494: PEDO_rKneeIKtoFKAimLctr
+    100496: PEDO_rKneeJ
+    100498: PEDO_rKneeJFK
+    100500: PEDO_rKneeJFKG1
+    100502: PEDO_rKneeJFKG2
+    100504: PEDO_rKneeJIK
+    100506: PEDO_rKneeTargetLockLctr
+    100508: PEDO_rLegIKFKG
+    100510: PEDO_rLegIKHandle
+    100512: PEDO_rLegLengthEndLctr
+    100514: PEDO_rLegLengthOriginLctr
+    100516: PEDO_rLegSwitchC
+    100518: PEDO_rLegSwitchCG
+    100520: PEDO_ROOTC
+    100522: PEDO_ROOTCG
+    100524: PEDO_ROOTJ
+    100526: PEDO_rPalmC
+    100528: PEDO_rPalmCG
+    100530: PEDO_rPalmJ
+    100532: PEDO_rShoulderFKC
+    100534: PEDO_rShoulderFKCG
+    100536: PEDO_rShoulderFKCG2
+    100538: PEDO_rShoulderFKtoIKOrientLctr
+    100540: PEDO_rShoulderIKLockLctr
+    100542: PEDO_rShoulderJ
+    100544: PEDO_rShoulderJFK
+    100546: PEDO_rShoulderJIK
+    100548: PEDO_rThumbJ1
+    100550: PEDO_rThumbJ1C
+    100552: PEDO_rThumbJ1CG
+    100554: PEDO_rThumbJ1CRotG
+    100556: PEDO_rThumbJ2
+    100558: PEDO_rThumbJ2CG
+    100560: PEDO_rThumbJ2CRotG
+    100562: PEDO_rThumbJ3CG
+    100564: PEDO_rThumbJ3CRotG
+    100566: PEDO_rToeIKC
+    100568: PEDO_rToeIKCG
+    100570: PEDO_rToeIKHandle
+    100572: PEDO_rToeJ
+    100574: PEDO_rToeJFK
+    100576: PEDO_rToeJIK
+    100578: PEDO_rWristFKC
+    100580: PEDO_rWristFKCG
+    100582: PEDO_rWristFKtoIKLctr
+    100584: PEDO_rWristIKC
+    100586: PEDO_rWristIKCG
+    100588: PEDO_rWristIKLockLctr
+    100590: PEDO_rWristIKtoFKLctr
+    100592: PEDO_rWristIKtoFKLctrTarget
+    100594: PEDO_rWristIKtoFKLctrTargetG
+    100596: PEDO_rWristJ
+    100598: PEDO_rWristJFK
+    100600: PEDO_rWristJFKG1
+    100602: PEDO_rWristJFKG2
+    100604: PEDO_rWristJG1
+    100606: PEDO_rWristJG2
+    100608: PEDO_rWristJIK
+    100610: PEDO_rWristJIKProxy
+    100612: PEDO_rWristJIKProxyG1
+    100614: PEDO_rWristJIKProxyG2
+    100616: PEDO_rWristJProxy
+    100618: PEDO_SH_lAnkleJ
+    100620: PEDO_SH_lBallJ
+    100622: PEDO_SH_lClavicleJ
+    100624: PEDO_SH_lElbowJ
+    100626: PEDO_SH_lFinger1J1
+    100628: PEDO_SH_lFinger1J2
+    100630: PEDO_SH_lFinger1J3
+    100632: PEDO_SH_lFinger1JTip
+    100634: PEDO_SH_lForearmJ
+    100636: PEDO_SH_lHipJ
+    100638: PEDO_SH_lKneeJ
+    100640: PEDO_SH_lPalmJ
+    100642: PEDO_SH_lShoulderJ
+    100644: PEDO_SH_lThumbJ1
+    100646: PEDO_SH_lThumbJ2
+    100648: PEDO_SH_lToeJ
+    100650: PEDO_SH_lWristJ
+    100652: PEDO_SH_rAnkleJ
+    100654: PEDO_SH_rBallJ
+    100656: PEDO_SH_rClavicleJ
+    100658: PEDO_SH_rElbowJ
+    100660: PEDO_SH_rFinger1J1
+    100662: PEDO_SH_rFinger1J2
+    100664: PEDO_SH_rFinger1J3
+    100666: PEDO_SH_rFinger1JTip
+    100668: PEDO_SH_rForearmJ
+    100670: PEDO_SH_rHipJ
+    100672: PEDO_SH_rKneeJ
+    100674: PEDO_SH_ROOTJ
+    100676: PEDO_SH_rPalmJ
+    100678: PEDO_SH_rShoulderJ
+    100680: PEDO_SH_rThumbJ1
+    100682: PEDO_SH_rThumbJ2
+    100684: PEDO_SH_rToeJ
+    100686: PEDO_SH_rWristJ
+    100688: PEDO_SH_Spine01J
+    100690: PEDO_SH_Spine02J
+    100692: PEDO_SH_SpineTopJ
+    100694: PEDO_Spine01CurveC
+    100696: PEDO_Spine01CurveCG
+    100698: PEDO_Spine01CurveLctr
+    100700: PEDO_Spine01F
+    100702: PEDO_Spine01FKC
+    100704: PEDO_Spine01FKCG
+    100706: PEDO_Spine01J
+    100708: PEDO_Spine02CurveC
+    100710: PEDO_Spine02CurveCG
+    100712: PEDO_Spine02CurveLctr
+    100714: PEDO_Spine02F
+    100716: PEDO_Spine02FKC
+    100718: PEDO_Spine02FKCG
+    100720: PEDO_Spine02J
+    100722: PEDO_Spine_hairSystemFollicles
+    100724: PEDO_Spine_MidAimLctr
+    100726: PEDO_Spine_MidTargetLctr
+    100728: PEDO_Spine_ribbonBlend
+    100730: PEDO_Spine_ribbonBlend_lCluster
+    100732: PEDO_Spine_ribbonBlend_lClusterG
+    100734: PEDO_Spine_ribbonBlend_rCluster
+    100736: PEDO_Spine_ribbonBlend_rClusterG
+    100738: PEDO_Spine_ribbonSpineG
+    100740: PEDO_SpineBtm01JIK
+    100742: PEDO_SpineBtmTX_Lctr
+    100744: PEDO_SpineLengthCX
+    100746: PEDO_SpineLengthCXlstr01
+    100748: PEDO_SpineLengthCXlstr02
+    100750: PEDO_SpineLengthCXlstr03
+    100752: PEDO_SpineMidIKC
+    100754: PEDO_SpineMidIKCG
+    100756: PEDO_SpineMidIKCG2
+    100758: PEDO_SpineMidJIK
+    100760: PEDO_SpineSplineBtm
+    100762: PEDO_SpineSplineBtm_BtmClstr
+    100764: PEDO_SpineSplineBtm_ClusterG
+    100766: PEDO_SpineSplineBtm_TopClstr
+    100768: PEDO_SpineSplineMid_ClusterG
+    100770: PEDO_SpineSplineTop
+    100772: PEDO_SpineSplineTop_BtmClstr
+    100774: PEDO_SpineSplineTop_ClusterG
+    100776: PEDO_SpineSplineTop_TopClstr
+    100778: PEDO_SpineTopFKC
+    100780: PEDO_SpineTopFKCG
+    100782: PEDO_SpineTopIKC
+    100784: PEDO_SpineTopIKC_OrientLctr
+    100786: PEDO_SpineTopIKCG
+    100788: PEDO_SpineTopIKCG2
+    100790: PEDO_SpineTopJ
+    100792: PEDO_SpineTopJIK
+    100794: PEDO_SpineTopTX_Lctr
+    100796: polySurface51
+    400000: body
+    400002: chara
+    400004: coat
+    400006: exhib
+    400008: head04
+    400010: joint1
+    400012: joint2
+    400014: PEDO
+    400016: //RootNode
+    400018: PEDO_ExtraNodes
+    400020: PEDO_HeadC_OrientLctr
+    400022: PEDO_lAnkleFKC
+    400024: PEDO_lAnkleFKCG
+    400026: PEDO_lAnkleFKtoIKLctr
+    400028: PEDO_lAnkleFKtoIKLctrG
+    400030: PEDO_lAnkleIKLockLctr
+    400032: PEDO_lAnkleIKtoFKLctr
+    400034: PEDO_lAnkleIKtoFKLctrG
+    400036: PEDO_lAnkleJ
+    400038: PEDO_lAnkleJFK
+    400040: PEDO_lAnkleJFKG1
+    400042: PEDO_lAnkleJFKG2
+    400044: PEDO_lAnkleJIK
+    400046: PEDO_lArmIKFKG
+    400048: PEDO_lArmIKHandle
+    400050: PEDO_lArmLengthEndLctr
+    400052: PEDO_lArmLengthOriginLctr
+    400054: PEDO_lArmSwitchC
+    400056: PEDO_lArmSwitchCG
+    400058: PEDO_lBallFKC
+    400060: PEDO_lBallFKCG
+    400062: PEDO_lBallIKHandle
+    400064: PEDO_lBallJ
+    400066: PEDO_lBallJFK
+    400068: PEDO_lBallJIK
+    400070: PEDO_lBallSwivel
+    400072: PEDO_lClavicleC
+    400074: PEDO_lClavicleCG
+    400076: PEDO_lClavicleJ
+    400078: PEDO_lElbowFKC
+    400080: PEDO_lElbowFKCG
+    400082: PEDO_lElbowIKAimConnectorLctr
+    400084: PEDO_lElbowIKC
+    400086: PEDO_lElbowIKC_TargetLctr
+    400088: PEDO_lElbowIKCG
+    400090: PEDO_lElbowIKConnectorCX
+    400092: PEDO_lElbowIKLockLctr
+    400094: PEDO_lElbowIKTargetConnectorLctr
+    400096: PEDO_lElbowIKtoFKAimLctr
+    400098: PEDO_lElbowJ
+    400100: PEDO_lElbowJFK
+    400102: PEDO_lElbowJFKG1
+    400104: PEDO_lElbowJFKG2
+    400106: PEDO_lElbowJIK
+    400108: PEDO_lFinger1J1
+    400110: PEDO_lFinger1J1C
+    400112: PEDO_lFinger1J1CG
+    400114: PEDO_lFinger1J1CRotG
+    400116: PEDO_lFinger1J2
+    400118: PEDO_lFinger1J2CG
+    400120: PEDO_lFinger1J2CRotG
+    400122: PEDO_lFinger1J3
+    400124: PEDO_lFinger1J3CG
+    400126: PEDO_lFinger1J3CRotG
+    400128: PEDO_lFinger1JTip
+    400130: PEDO_lFootBallPivot
+    400132: PEDO_lFootHeelPivot
+    400134: PEDO_lFootIKC
+    400136: PEDO_lFootIKCG
+    400138: PEDO_lFootInTilt
+    400140: PEDO_lFootOutTilt
+    400142: PEDO_lFootToePivot
+    400144: PEDO_lForearmJ
+    400146: PEDO_lHipFKC
+    400148: PEDO_lHipFKCG
+    400150: PEDO_lHipFKtoIKOrientLctr
+    400152: PEDO_lHipIKLockLctr
+    400154: PEDO_lHipJ
+    400156: PEDO_lHipJFK
+    400158: PEDO_lHipJIK
+    400160: PEDO_lKneeFKC
+    400162: PEDO_lKneeFKCG
+    400164: PEDO_lKneeIKAimConnectorLctr
+    400166: PEDO_lKneeIKC
+    400168: PEDO_lKneeIKC_TargetLctr
+    400170: PEDO_lKneeIKCG
+    400172: PEDO_lKneeIKConnectorCX
+    400174: PEDO_lKneeIKLockLctr
+    400176: PEDO_lKneeIKTargetConnectorLctr
+    400178: PEDO_lKneeIKtoFKAimLctr
+    400180: PEDO_lKneeJ
+    400182: PEDO_lKneeJFK
+    400184: PEDO_lKneeJFKG1
+    400186: PEDO_lKneeJFKG2
+    400188: PEDO_lKneeJIK
+    400190: PEDO_lKneeTargetLockLctr
+    400192: PEDO_lLegIKFKG
+    400194: PEDO_lLegIKHandle
+    400196: PEDO_lLegLengthEndLctr
+    400198: PEDO_lLegLengthOriginLctr
+    400200: PEDO_lLegSwitchC
+    400202: PEDO_lLegSwitchCG
+    400204: PEDO_lPalmC
+    400206: PEDO_lPalmCG
+    400208: PEDO_lPalmJ
+    400210: PEDO_lShoulderFKC
+    400212: PEDO_lShoulderFKCG
+    400214: PEDO_lShoulderFKCG2
+    400216: PEDO_lShoulderFKtoIKOrientLctr
+    400218: PEDO_lShoulderIKLockLctr
+    400220: PEDO_lShoulderJ
+    400222: PEDO_lShoulderJFK
+    400224: PEDO_lShoulderJIK
+    400226: PEDO_lThumbJ1
+    400228: PEDO_lThumbJ1C
+    400230: PEDO_lThumbJ1CG
+    400232: PEDO_lThumbJ1CRotG
+    400234: PEDO_lThumbJ2
+    400236: PEDO_lThumbJ2CG
+    400238: PEDO_lThumbJ2CRotG
+    400240: PEDO_lThumbJ3CG
+    400242: PEDO_lThumbJ3CRotG
+    400244: PEDO_lToeIKC
+    400246: PEDO_lToeIKCG
+    400248: PEDO_lToeIKHandle
+    400250: PEDO_lToeJ
+    400252: PEDO_lToeJFK
+    400254: PEDO_lToeJIK
+    400256: PEDO_lWristFKC
+    400258: PEDO_lWristFKCG
+    400260: PEDO_lWristFKtoIKLctr
+    400262: PEDO_lWristIKC
+    400264: PEDO_lWristIKCG
+    400266: PEDO_lWristIKLockLctr
+    400268: PEDO_lWristIKtoFKLctr
+    400270: PEDO_lWristJ
+    400272: PEDO_lWristJFK
+    400274: PEDO_lWristJFKG1
+    400276: PEDO_lWristJFKG2
+    400278: PEDO_lWristJG1
+    400280: PEDO_lWristJG2
+    400282: PEDO_lWristJIK
+    400284: PEDO_lWristJIKProxy
+    400286: PEDO_lWristJIKProxyG1
+    400288: PEDO_lWristJIKProxyG2
+    400290: PEDO_lWristJProxy
+    400292: PEDO_MainC
+    400294: PEDO_MainHipC
+    400296: PEDO_MainHipCG
+    400298: PEDO_MainHipInvG
+    400300: PEDO_Neck01CurveC
+    400302: PEDO_Neck01CurveCG
+    400304: PEDO_Neck01CurveLctr
+    400306: PEDO_Neck01F
+    400308: PEDO_Neck01FKCG_OrientLctr
+    400310: PEDO_Neck_hairSystemFollicles
+    400312: PEDO_Neck_MidAimLctr
+    400314: PEDO_Neck_MidTargetLctr
+    400316: PEDO_Neck_ribbonBlend
+    400318: PEDO_Neck_ribbonBlend_lCluster
+    400320: PEDO_Neck_ribbonBlend_lClusterG
+    400322: PEDO_Neck_ribbonBlend_rCluster
+    400324: PEDO_Neck_ribbonBlend_rClusterG
+    400326: PEDO_NeckBtmTX_Lctr
+    400328: PEDO_NeckLengthCX
+    400330: PEDO_NeckLengthCXlstr01
+    400332: PEDO_NeckSplineBtm
+    400334: PEDO_NeckSplineTop
+    400336: PEDO_rAnkleFKC
+    400338: PEDO_rAnkleFKCG
+    400340: PEDO_rAnkleFKtoIKLctr
+    400342: PEDO_rAnkleFKtoIKLctrG
+    400344: PEDO_rAnkleIKLockLctr
+    400346: PEDO_rAnkleIKtoFKLctr
+    400348: PEDO_rAnkleIKtoFKLctrTarget
+    400350: PEDO_rAnkleIKtoFKLctrTargetG
+    400352: PEDO_rAnkleJ
+    400354: PEDO_rAnkleJFK
+    400356: PEDO_rAnkleJFKG1
+    400358: PEDO_rAnkleJFKG2
+    400360: PEDO_rAnkleJIK
+    400362: PEDO_rArmIKFKG
+    400364: PEDO_rArmIKHandle
+    400366: PEDO_rArmLengthEndLctr
+    400368: PEDO_rArmLengthOriginLctr
+    400370: PEDO_rArmSwitchC
+    400372: PEDO_rArmSwitchCG
+    400374: PEDO_rBallFKC
+    400376: PEDO_rBallFKCG
+    400378: PEDO_rBallIKHandle
+    400380: PEDO_rBallJ
+    400382: PEDO_rBallJFK
+    400384: PEDO_rBallJIK
+    400386: PEDO_rBallSwivel
+    400388: PEDO_rClavicleC
+    400390: PEDO_rClavicleCG
+    400392: PEDO_rClavicleJ
+    400394: PEDO_rElbowFKC
+    400396: PEDO_rElbowFKCG
+    400398: PEDO_rElbowIKAimConnectorLctr
+    400400: PEDO_rElbowIKC
+    400402: PEDO_rElbowIKC_TargetLctr
+    400404: PEDO_rElbowIKCG
+    400406: PEDO_rElbowIKConnectorCX
+    400408: PEDO_rElbowIKLockLctr
+    400410: PEDO_rElbowIKTargetConnectorLctr
+    400412: PEDO_rElbowIKtoFKAimLctr
+    400414: PEDO_rElbowJ
+    400416: PEDO_rElbowJFK
+    400418: PEDO_rElbowJFKG1
+    400420: PEDO_rElbowJFKG2
+    400422: PEDO_rElbowJIK
+    400424: PEDO_rFinger1J1
+    400426: PEDO_rFinger1J1C
+    400428: PEDO_rFinger1J1CG
+    400430: PEDO_rFinger1J1CRotG
+    400432: PEDO_rFinger1J2
+    400434: PEDO_rFinger1J2CG
+    400436: PEDO_rFinger1J2CRotG
+    400438: PEDO_rFinger1J3
+    400440: PEDO_rFinger1J3CG
+    400442: PEDO_rFinger1J3CRotG
+    400444: PEDO_rFinger1JTip
+    400446: PEDO_rFootBallPivot
+    400448: PEDO_rFootHeelPivot
+    400450: PEDO_rFootIKC
+    400452: PEDO_rFootIKCG
+    400454: PEDO_rFootInTilt
+    400456: PEDO_rFootOutTilt
+    400458: PEDO_rFootToePivot
+    400460: PEDO_rForearmJ
+    400462: PEDO_rHipFKC
+    400464: PEDO_rHipFKCG
+    400466: PEDO_rHipFKtoIKOrientLctr
+    400468: PEDO_rHipIKLockLctr
+    400470: PEDO_rHipJ
+    400472: PEDO_rHipJFK
+    400474: PEDO_rHipJIK
+    400476: PEDO_rKneeFKC
+    400478: PEDO_rKneeFKCG
+    400480: PEDO_rKneeIKAimConnectorLctr
+    400482: PEDO_rKneeIKC
+    400484: PEDO_rKneeIKC_TargetLctr
+    400486: PEDO_rKneeIKCG
+    400488: PEDO_rKneeIKConnectorCX
+    400490: PEDO_rKneeIKLockLctr
+    400492: PEDO_rKneeIKTargetConnectorLctr
+    400494: PEDO_rKneeIKtoFKAimLctr
+    400496: PEDO_rKneeJ
+    400498: PEDO_rKneeJFK
+    400500: PEDO_rKneeJFKG1
+    400502: PEDO_rKneeJFKG2
+    400504: PEDO_rKneeJIK
+    400506: PEDO_rKneeTargetLockLctr
+    400508: PEDO_rLegIKFKG
+    400510: PEDO_rLegIKHandle
+    400512: PEDO_rLegLengthEndLctr
+    400514: PEDO_rLegLengthOriginLctr
+    400516: PEDO_rLegSwitchC
+    400518: PEDO_rLegSwitchCG
+    400520: PEDO_ROOTC
+    400522: PEDO_ROOTCG
+    400524: PEDO_ROOTJ
+    400526: PEDO_rPalmC
+    400528: PEDO_rPalmCG
+    400530: PEDO_rPalmJ
+    400532: PEDO_rShoulderFKC
+    400534: PEDO_rShoulderFKCG
+    400536: PEDO_rShoulderFKCG2
+    400538: PEDO_rShoulderFKtoIKOrientLctr
+    400540: PEDO_rShoulderIKLockLctr
+    400542: PEDO_rShoulderJ
+    400544: PEDO_rShoulderJFK
+    400546: PEDO_rShoulderJIK
+    400548: PEDO_rThumbJ1
+    400550: PEDO_rThumbJ1C
+    400552: PEDO_rThumbJ1CG
+    400554: PEDO_rThumbJ1CRotG
+    400556: PEDO_rThumbJ2
+    400558: PEDO_rThumbJ2CG
+    400560: PEDO_rThumbJ2CRotG
+    400562: PEDO_rThumbJ3CG
+    400564: PEDO_rThumbJ3CRotG
+    400566: PEDO_rToeIKC
+    400568: PEDO_rToeIKCG
+    400570: PEDO_rToeIKHandle
+    400572: PEDO_rToeJ
+    400574: PEDO_rToeJFK
+    400576: PEDO_rToeJIK
+    400578: PEDO_rWristFKC
+    400580: PEDO_rWristFKCG
+    400582: PEDO_rWristFKtoIKLctr
+    400584: PEDO_rWristIKC
+    400586: PEDO_rWristIKCG
+    400588: PEDO_rWristIKLockLctr
+    400590: PEDO_rWristIKtoFKLctr
+    400592: PEDO_rWristIKtoFKLctrTarget
+    400594: PEDO_rWristIKtoFKLctrTargetG
+    400596: PEDO_rWristJ
+    400598: PEDO_rWristJFK
+    400600: PEDO_rWristJFKG1
+    400602: PEDO_rWristJFKG2
+    400604: PEDO_rWristJG1
+    400606: PEDO_rWristJG2
+    400608: PEDO_rWristJIK
+    400610: PEDO_rWristJIKProxy
+    400612: PEDO_rWristJIKProxyG1
+    400614: PEDO_rWristJIKProxyG2
+    400616: PEDO_rWristJProxy
+    400618: PEDO_SH_lAnkleJ
+    400620: PEDO_SH_lBallJ
+    400622: PEDO_SH_lClavicleJ
+    400624: PEDO_SH_lElbowJ
+    400626: PEDO_SH_lFinger1J1
+    400628: PEDO_SH_lFinger1J2
+    400630: PEDO_SH_lFinger1J3
+    400632: PEDO_SH_lFinger1JTip
+    400634: PEDO_SH_lForearmJ
+    400636: PEDO_SH_lHipJ
+    400638: PEDO_SH_lKneeJ
+    400640: PEDO_SH_lPalmJ
+    400642: PEDO_SH_lShoulderJ
+    400644: PEDO_SH_lThumbJ1
+    400646: PEDO_SH_lThumbJ2
+    400648: PEDO_SH_lToeJ
+    400650: PEDO_SH_lWristJ
+    400652: PEDO_SH_rAnkleJ
+    400654: PEDO_SH_rBallJ
+    400656: PEDO_SH_rClavicleJ
+    400658: PEDO_SH_rElbowJ
+    400660: PEDO_SH_rFinger1J1
+    400662: PEDO_SH_rFinger1J2
+    400664: PEDO_SH_rFinger1J3
+    400666: PEDO_SH_rFinger1JTip
+    400668: PEDO_SH_rForearmJ
+    400670: PEDO_SH_rHipJ
+    400672: PEDO_SH_rKneeJ
+    400674: PEDO_SH_ROOTJ
+    400676: PEDO_SH_rPalmJ
+    400678: PEDO_SH_rShoulderJ
+    400680: PEDO_SH_rThumbJ1
+    400682: PEDO_SH_rThumbJ2
+    400684: PEDO_SH_rToeJ
+    400686: PEDO_SH_rWristJ
+    400688: PEDO_SH_Spine01J
+    400690: PEDO_SH_Spine02J
+    400692: PEDO_SH_SpineTopJ
+    400694: PEDO_Spine01CurveC
+    400696: PEDO_Spine01CurveCG
+    400698: PEDO_Spine01CurveLctr
+    400700: PEDO_Spine01F
+    400702: PEDO_Spine01FKC
+    400704: PEDO_Spine01FKCG
+    400706: PEDO_Spine01J
+    400708: PEDO_Spine02CurveC
+    400710: PEDO_Spine02CurveCG
+    400712: PEDO_Spine02CurveLctr
+    400714: PEDO_Spine02F
+    400716: PEDO_Spine02FKC
+    400718: PEDO_Spine02FKCG
+    400720: PEDO_Spine02J
+    400722: PEDO_Spine_hairSystemFollicles
+    400724: PEDO_Spine_MidAimLctr
+    400726: PEDO_Spine_MidTargetLctr
+    400728: PEDO_Spine_ribbonBlend
+    400730: PEDO_Spine_ribbonBlend_lCluster
+    400732: PEDO_Spine_ribbonBlend_lClusterG
+    400734: PEDO_Spine_ribbonBlend_rCluster
+    400736: PEDO_Spine_ribbonBlend_rClusterG
+    400738: PEDO_Spine_ribbonSpineG
+    400740: PEDO_SpineBtm01JIK
+    400742: PEDO_SpineBtmTX_Lctr
+    400744: PEDO_SpineLengthCX
+    400746: PEDO_SpineLengthCXlstr01
+    400748: PEDO_SpineLengthCXlstr02
+    400750: PEDO_SpineLengthCXlstr03
+    400752: PEDO_SpineMidIKC
+    400754: PEDO_SpineMidIKCG
+    400756: PEDO_SpineMidIKCG2
+    400758: PEDO_SpineMidJIK
+    400760: PEDO_SpineSplineBtm
+    400762: PEDO_SpineSplineBtm_BtmClstr
+    400764: PEDO_SpineSplineBtm_ClusterG
+    400766: PEDO_SpineSplineBtm_TopClstr
+    400768: PEDO_SpineSplineMid_ClusterG
+    400770: PEDO_SpineSplineTop
+    400772: PEDO_SpineSplineTop_BtmClstr
+    400774: PEDO_SpineSplineTop_ClusterG
+    400776: PEDO_SpineSplineTop_TopClstr
+    400778: PEDO_SpineTopFKC
+    400780: PEDO_SpineTopFKCG
+    400782: PEDO_SpineTopIKC
+    400784: PEDO_SpineTopIKC_OrientLctr
+    400786: PEDO_SpineTopIKCG
+    400788: PEDO_SpineTopIKCG2
+    400790: PEDO_SpineTopJ
+    400792: PEDO_SpineTopJIK
+    400794: PEDO_SpineTopTX_Lctr
+    400796: polySurface51
+    2300000: coat
+    2300002: polySurface51
+    3300000: coat
+    3300002: polySurface51
+    4300000: body
+    4300002: coat
+    4300004: head04
+    4300006: polySurface51
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: body
+    13700002: head04
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chara
+        weight: 1
+      - path: chara/exhib
+        weight: 1
+      - path: chara/exhib/body
+        weight: 1
+      - path: chara/exhib/coat
+        weight: 1
+      - path: chara/exhib/head04
+        weight: 1
+      - path: PEDO
+        weight: 1
+      - path: PEDO/PEDO_MainC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Neck01CurveLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Neck_hairSystemFollicles
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Neck_hairSystemFollicles/PEDO_Neck01F
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Neck_ribbonBlend
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Neck_ribbonBlend_lClusterG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Neck_ribbonBlend_lClusterG/PEDO_Neck_ribbonBlend_lCluster
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Neck_ribbonBlend_rClusterG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Neck_ribbonBlend_rClusterG/PEDO_Neck_ribbonBlend_rCluster
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_NeckLengthCX
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_NeckSplineBtm
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_NeckSplineTop
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Spine01CurveLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Spine02CurveLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Spine_hairSystemFollicles
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Spine_hairSystemFollicles/PEDO_Spine01F
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Spine_hairSystemFollicles/PEDO_Spine02F
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Spine_ribbonBlend
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Spine_ribbonBlend_lClusterG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Spine_ribbonBlend_lClusterG/PEDO_Spine_ribbonBlend_lCluster
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Spine_ribbonBlend_rClusterG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_Spine_ribbonBlend_rClusterG/PEDO_Spine_ribbonBlend_rCluster
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_SpineLengthCX
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_SpineSplineBtm
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ExtraNodes/PEDO_SpineSplineTop
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_HeadC_OrientLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lAnkleFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lAnkleFKCG/PEDO_lAnkleFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lAnkleFKtoIKLctrG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lAnkleFKtoIKLctrG/PEDO_lAnkleFKtoIKLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lAnkleIKtoFKLctrG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lAnkleIKtoFKLctrG/PEDO_lAnkleIKtoFKLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lAnkleJFKG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lAnkleJFKG2/PEDO_lAnkleJFKG1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lAnkleJFKG2/PEDO_lAnkleJFKG1/PEDO_lAnkleJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lAnkleJFKG2/PEDO_lAnkleJFKG1/PEDO_lAnkleJFK/PEDO_lBallJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lAnkleJFKG2/PEDO_lAnkleJFKG1/PEDO_lAnkleJFK/PEDO_lBallJFK/PEDO_lToeJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lArmIKFKG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lArmIKFKG/PEDO_lShoulderJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lArmIKFKG/PEDO_lShoulderJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lArmIKFKG/PEDO_lShoulderJIK/PEDO_lElbowJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lArmIKFKG/PEDO_lShoulderJIK/PEDO_lElbowJIK/PEDO_lWristJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lArmIKHandle
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lArmLengthOriginLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lArmLengthOriginLctr/PEDO_lArmLengthEndLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lArmSwitchCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lArmSwitchCG/PEDO_lArmSwitchC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lBallFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lBallFKCG/PEDO_lBallFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lClavicleCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lClavicleCG/PEDO_lClavicleC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lElbowFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lElbowFKCG/PEDO_lElbowFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lElbowIKC_TargetLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lElbowIKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lElbowIKCG/PEDO_lElbowIKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lElbowIKCG/PEDO_lElbowIKC/PEDO_lElbowIKAimConnectorLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lElbowIKCG/PEDO_lElbowIKC/PEDO_lElbowIKAimConnectorLctr/PEDO_lElbowIKTargetConnectorLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lElbowIKCG/PEDO_lElbowIKC/PEDO_lElbowIKConnectorCX
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lElbowIKCG/PEDO_lElbowIKtoFKAimLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lElbowJFKG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lElbowJFKG2/PEDO_lElbowJFKG1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lElbowJFKG2/PEDO_lElbowJFKG1/PEDO_lElbowJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lFootIKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lFootIKCG/PEDO_lFootIKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lHipFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lHipFKCG/PEDO_lHipFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lHipFKCG/PEDO_lHipFKtoIKOrientLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lHipIKLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lHipIKLockLctr/PEDO_lKneeIKLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lHipIKLockLctr/PEDO_lKneeIKLockLctr/PEDO_lAnkleIKLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lKneeFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lKneeFKCG/PEDO_lKneeFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lKneeIKC_TargetLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lKneeIKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lKneeIKCG/PEDO_lKneeIKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lKneeIKCG/PEDO_lKneeIKC/PEDO_lKneeIKAimConnectorLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lKneeIKCG/PEDO_lKneeIKC/PEDO_lKneeIKAimConnectorLctr/PEDO_lKneeIKTargetConnectorLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lKneeIKCG/PEDO_lKneeIKC/PEDO_lKneeIKConnectorCX
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lKneeIKCG/PEDO_lKneeIKtoFKAimLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lKneeJFKG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lKneeJFKG2/PEDO_lKneeJFKG1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lKneeJFKG2/PEDO_lKneeJFKG1/PEDO_lKneeJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lLegIKFKG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lLegIKFKG/PEDO_lHipJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lLegIKFKG/PEDO_lHipJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lLegIKFKG/PEDO_lHipJIK/PEDO_lKneeJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lLegIKFKG/PEDO_lHipJIK/PEDO_lKneeJIK/PEDO_lAnkleJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lLegIKFKG/PEDO_lHipJIK/PEDO_lKneeJIK/PEDO_lAnkleJIK/PEDO_lBallJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lLegIKFKG/PEDO_lHipJIK/PEDO_lKneeJIK/PEDO_lAnkleJIK/PEDO_lBallJIK/PEDO_lToeJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lLegLengthOriginLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lLegLengthOriginLctr/PEDO_lLegLengthEndLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lLegSwitchCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lLegSwitchCG/PEDO_lLegSwitchC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lPalmCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lPalmCG/PEDO_lPalmC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lPalmCG/PEDO_lPalmC/PEDO_lFinger1J1CG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lPalmCG/PEDO_lPalmC/PEDO_lFinger1J1CG/PEDO_lFinger1J1CRotG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lPalmCG/PEDO_lPalmC/PEDO_lFinger1J1CG/PEDO_lFinger1J1CRotG/PEDO_lFinger1J1C
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lPalmCG/PEDO_lPalmC/PEDO_lFinger1J2CG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lPalmCG/PEDO_lPalmC/PEDO_lFinger1J2CG/PEDO_lFinger1J2CRotG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lPalmCG/PEDO_lPalmC/PEDO_lFinger1J3CG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lPalmCG/PEDO_lPalmC/PEDO_lFinger1J3CG/PEDO_lFinger1J3CRotG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lShoulderFKCG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lShoulderFKCG2/PEDO_lShoulderFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lShoulderFKCG2/PEDO_lShoulderFKCG/PEDO_lShoulderFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lShoulderFKCG2/PEDO_lShoulderFKCG/PEDO_lShoulderFKtoIKOrientLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lShoulderIKLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lShoulderIKLockLctr/PEDO_lElbowIKLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lShoulderIKLockLctr/PEDO_lElbowIKLockLctr/PEDO_lWristIKLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lToeIKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lToeIKCG/PEDO_lToeIKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lToeIKCG/PEDO_lToeIKC/PEDO_lBallSwivel
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lToeIKCG/PEDO_lToeIKC/PEDO_lBallSwivel/PEDO_lFootInTilt
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lToeIKCG/PEDO_lToeIKC/PEDO_lBallSwivel/PEDO_lFootInTilt/PEDO_lFootOutTilt
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lToeIKCG/PEDO_lToeIKC/PEDO_lBallSwivel/PEDO_lFootInTilt/PEDO_lFootOutTilt/PEDO_lFootHeelPivot
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lToeIKCG/PEDO_lToeIKC/PEDO_lBallSwivel/PEDO_lFootInTilt/PEDO_lFootOutTilt/PEDO_lFootHeelPivot/PEDO_lFootBallPivot
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lToeIKCG/PEDO_lToeIKC/PEDO_lBallSwivel/PEDO_lFootInTilt/PEDO_lFootOutTilt/PEDO_lFootHeelPivot/PEDO_lFootBallPivot/PEDO_lBallIKHandle
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lToeIKCG/PEDO_lToeIKC/PEDO_lBallSwivel/PEDO_lFootInTilt/PEDO_lFootOutTilt/PEDO_lFootHeelPivot/PEDO_lFootBallPivot/PEDO_lKneeTargetLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lToeIKCG/PEDO_lToeIKC/PEDO_lBallSwivel/PEDO_lFootInTilt/PEDO_lFootOutTilt/PEDO_lFootHeelPivot/PEDO_lFootBallPivot/PEDO_lLegIKHandle
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lToeIKCG/PEDO_lToeIKC/PEDO_lBallSwivel/PEDO_lFootInTilt/PEDO_lFootOutTilt/PEDO_lFootHeelPivot/PEDO_lFootToePivot
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lToeIKCG/PEDO_lToeIKC/PEDO_lBallSwivel/PEDO_lFootInTilt/PEDO_lFootOutTilt/PEDO_lFootHeelPivot/PEDO_lFootToePivot/PEDO_lToeIKHandle
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristFKCG/PEDO_lWristFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristFKCG/PEDO_lWristFKtoIKLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristIKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristIKCG/PEDO_lWristIKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristIKCG/PEDO_lWristIKtoFKLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJFKG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJFKG2/PEDO_lWristJFKG1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJFKG2/PEDO_lWristJFKG1/PEDO_lWristJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lThumbJ1CG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lThumbJ1CG/PEDO_lThumbJ1CRotG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lThumbJ1CG/PEDO_lThumbJ1CRotG/PEDO_lThumbJ1C
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lThumbJ2CG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lThumbJ2CG/PEDO_lThumbJ2CRotG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lThumbJ3CG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lThumbJ3CG/PEDO_lThumbJ3CRotG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lWristJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lWristJ/PEDO_lPalmJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lWristJ/PEDO_lPalmJ/PEDO_lFinger1J1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lWristJ/PEDO_lPalmJ/PEDO_lFinger1J1/PEDO_lFinger1J2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lWristJ/PEDO_lPalmJ/PEDO_lFinger1J1/PEDO_lFinger1J2/PEDO_lFinger1J3
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lWristJ/PEDO_lPalmJ/PEDO_lFinger1J1/PEDO_lFinger1J2/PEDO_lFinger1J3/PEDO_lFinger1JTip
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lWristJ/PEDO_lThumbJ1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJG2/PEDO_lWristJG1/PEDO_lWristJ/PEDO_lThumbJ1/PEDO_lThumbJ2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJIKProxyG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJIKProxyG2/PEDO_lWristJIKProxyG1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_lWristJIKProxyG2/PEDO_lWristJIKProxyG1/PEDO_lWristJIKProxy
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_MainHipCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_MainHipCG/PEDO_MainHipC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_MainHipCG/PEDO_MainHipC/PEDO_MainHipInvG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_MainHipCG/PEDO_MainHipC/PEDO_SpineBtmTX_Lctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_MainHipCG/PEDO_MainHipC/PEDO_SpineLengthCXlstr01
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Neck01CurveCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Neck01CurveCG/PEDO_Neck01CurveC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Neck01FKCG_OrientLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rAnkleFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rAnkleFKCG/PEDO_rAnkleFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rAnkleFKCG/PEDO_rAnkleFKC/PEDO_rAnkleIKtoFKLctrTargetG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rAnkleFKCG/PEDO_rAnkleFKC/PEDO_rAnkleIKtoFKLctrTargetG/PEDO_rAnkleIKtoFKLctrTarget
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rAnkleFKtoIKLctrG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rAnkleFKtoIKLctrG/PEDO_rAnkleFKtoIKLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rAnkleJFKG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rAnkleJFKG2/PEDO_rAnkleJFKG1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rAnkleJFKG2/PEDO_rAnkleJFKG1/PEDO_rAnkleJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rAnkleJFKG2/PEDO_rAnkleJFKG1/PEDO_rAnkleJFK/PEDO_rBallJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rAnkleJFKG2/PEDO_rAnkleJFKG1/PEDO_rAnkleJFK/PEDO_rBallJFK/PEDO_rToeJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rArmIKFKG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rArmIKFKG/PEDO_rShoulderJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rArmIKFKG/PEDO_rShoulderJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rArmIKFKG/PEDO_rShoulderJIK/PEDO_rElbowJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rArmIKFKG/PEDO_rShoulderJIK/PEDO_rElbowJIK/PEDO_rWristJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rArmIKHandle
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rArmLengthOriginLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rArmLengthOriginLctr/PEDO_rArmLengthEndLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rArmSwitchCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rArmSwitchCG/PEDO_rArmSwitchC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rBallFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rBallFKCG/PEDO_rBallFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rClavicleCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rClavicleCG/PEDO_rClavicleC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rElbowFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rElbowFKCG/PEDO_rElbowFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rElbowIKC_TargetLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rElbowIKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rElbowIKCG/PEDO_rElbowIKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rElbowIKCG/PEDO_rElbowIKC/PEDO_rElbowIKAimConnectorLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rElbowIKCG/PEDO_rElbowIKC/PEDO_rElbowIKAimConnectorLctr/PEDO_rElbowIKTargetConnectorLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rElbowIKCG/PEDO_rElbowIKC/PEDO_rElbowIKConnectorCX
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rElbowIKCG/PEDO_rElbowIKtoFKAimLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rElbowJFKG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rElbowJFKG2/PEDO_rElbowJFKG1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rElbowJFKG2/PEDO_rElbowJFKG1/PEDO_rElbowJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rFootIKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rFootIKCG/PEDO_rAnkleIKtoFKLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rFootIKCG/PEDO_rFootIKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rHipFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rHipFKCG/PEDO_rHipFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rHipFKCG/PEDO_rHipFKtoIKOrientLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rHipIKLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rHipIKLockLctr/PEDO_rKneeIKLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rHipIKLockLctr/PEDO_rKneeIKLockLctr/PEDO_rAnkleIKLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rKneeFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rKneeFKCG/PEDO_rKneeFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rKneeIKC_TargetLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rKneeIKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rKneeIKCG/PEDO_rKneeIKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rKneeIKCG/PEDO_rKneeIKC/PEDO_rKneeIKAimConnectorLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rKneeIKCG/PEDO_rKneeIKC/PEDO_rKneeIKAimConnectorLctr/PEDO_rKneeIKTargetConnectorLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rKneeIKCG/PEDO_rKneeIKC/PEDO_rKneeIKConnectorCX
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rKneeIKCG/PEDO_rKneeIKtoFKAimLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rKneeJFKG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rKneeJFKG2/PEDO_rKneeJFKG1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rKneeJFKG2/PEDO_rKneeJFKG1/PEDO_rKneeJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rLegIKFKG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rLegIKFKG/PEDO_rHipJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rLegIKFKG/PEDO_rHipJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rLegIKFKG/PEDO_rHipJIK/PEDO_rKneeJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rLegIKFKG/PEDO_rHipJIK/PEDO_rKneeJIK/PEDO_rAnkleJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rLegIKFKG/PEDO_rHipJIK/PEDO_rKneeJIK/PEDO_rAnkleJIK/PEDO_rBallJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rLegIKFKG/PEDO_rHipJIK/PEDO_rKneeJIK/PEDO_rAnkleJIK/PEDO_rBallJIK/PEDO_rToeJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rLegLengthOriginLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rLegLengthOriginLctr/PEDO_rLegLengthEndLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rLegSwitchCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rLegSwitchCG/PEDO_rLegSwitchC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTCG/PEDO_ROOTC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTCG/PEDO_ROOTC/PEDO_Neck_MidAimLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTCG/PEDO_ROOTC/PEDO_Neck_MidTargetLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTCG/PEDO_ROOTC/PEDO_Spine_MidAimLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTCG/PEDO_ROOTC/PEDO_Spine_MidTargetLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTJ/PEDO_lHipJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTJ/PEDO_lHipJ/PEDO_lKneeJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTJ/PEDO_lHipJ/PEDO_lKneeJ/PEDO_lAnkleJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTJ/PEDO_lHipJ/PEDO_lKneeJ/PEDO_lAnkleJ/PEDO_lBallJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTJ/PEDO_lHipJ/PEDO_lKneeJ/PEDO_lAnkleJ/PEDO_lBallJ/PEDO_lToeJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTJ/PEDO_rHipJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTJ/PEDO_rHipJ/PEDO_rKneeJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTJ/PEDO_rHipJ/PEDO_rKneeJ/PEDO_rAnkleJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTJ/PEDO_rHipJ/PEDO_rKneeJ/PEDO_rAnkleJ/PEDO_rBallJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_ROOTJ/PEDO_rHipJ/PEDO_rKneeJ/PEDO_rAnkleJ/PEDO_rBallJ/PEDO_rToeJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rPalmCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rPalmCG/PEDO_rPalmC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rPalmCG/PEDO_rPalmC/PEDO_rFinger1J1CG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rPalmCG/PEDO_rPalmC/PEDO_rFinger1J1CG/PEDO_rFinger1J1CRotG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rPalmCG/PEDO_rPalmC/PEDO_rFinger1J1CG/PEDO_rFinger1J1CRotG/PEDO_rFinger1J1C
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rPalmCG/PEDO_rPalmC/PEDO_rFinger1J2CG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rPalmCG/PEDO_rPalmC/PEDO_rFinger1J2CG/PEDO_rFinger1J2CRotG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rPalmCG/PEDO_rPalmC/PEDO_rFinger1J3CG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rPalmCG/PEDO_rPalmC/PEDO_rFinger1J3CG/PEDO_rFinger1J3CRotG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rShoulderFKCG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rShoulderFKCG2/PEDO_rShoulderFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rShoulderFKCG2/PEDO_rShoulderFKCG/PEDO_rShoulderFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rShoulderFKCG2/PEDO_rShoulderFKCG/PEDO_rShoulderFKtoIKOrientLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rShoulderIKLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rShoulderIKLockLctr/PEDO_rElbowIKLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rShoulderIKLockLctr/PEDO_rElbowIKLockLctr/PEDO_rWristIKLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rToeIKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rToeIKCG/PEDO_rToeIKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rToeIKCG/PEDO_rToeIKC/PEDO_rBallSwivel
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rToeIKCG/PEDO_rToeIKC/PEDO_rBallSwivel/PEDO_rFootInTilt
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rToeIKCG/PEDO_rToeIKC/PEDO_rBallSwivel/PEDO_rFootInTilt/PEDO_rFootOutTilt
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rToeIKCG/PEDO_rToeIKC/PEDO_rBallSwivel/PEDO_rFootInTilt/PEDO_rFootOutTilt/PEDO_rFootHeelPivot
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rToeIKCG/PEDO_rToeIKC/PEDO_rBallSwivel/PEDO_rFootInTilt/PEDO_rFootOutTilt/PEDO_rFootHeelPivot/PEDO_rFootBallPivot
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rToeIKCG/PEDO_rToeIKC/PEDO_rBallSwivel/PEDO_rFootInTilt/PEDO_rFootOutTilt/PEDO_rFootHeelPivot/PEDO_rFootBallPivot/PEDO_rBallIKHandle
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rToeIKCG/PEDO_rToeIKC/PEDO_rBallSwivel/PEDO_rFootInTilt/PEDO_rFootOutTilt/PEDO_rFootHeelPivot/PEDO_rFootBallPivot/PEDO_rKneeTargetLockLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rToeIKCG/PEDO_rToeIKC/PEDO_rBallSwivel/PEDO_rFootInTilt/PEDO_rFootOutTilt/PEDO_rFootHeelPivot/PEDO_rFootBallPivot/PEDO_rLegIKHandle
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rToeIKCG/PEDO_rToeIKC/PEDO_rBallSwivel/PEDO_rFootInTilt/PEDO_rFootOutTilt/PEDO_rFootHeelPivot/PEDO_rFootToePivot
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rToeIKCG/PEDO_rToeIKC/PEDO_rBallSwivel/PEDO_rFootInTilt/PEDO_rFootOutTilt/PEDO_rFootHeelPivot/PEDO_rFootToePivot/PEDO_rToeIKHandle
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristFKCG/PEDO_rWristFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristFKCG/PEDO_rWristFKC/PEDO_rWristIKtoFKLctrTargetG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristFKCG/PEDO_rWristFKC/PEDO_rWristIKtoFKLctrTargetG/PEDO_rWristIKtoFKLctrTarget
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristFKCG/PEDO_rWristFKtoIKLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristIKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristIKCG/PEDO_rWristIKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristIKCG/PEDO_rWristIKtoFKLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJFKG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJFKG2/PEDO_rWristJFKG1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJFKG2/PEDO_rWristJFKG1/PEDO_rWristJFK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rThumbJ1CG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rThumbJ1CG/PEDO_rThumbJ1CRotG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rThumbJ1CG/PEDO_rThumbJ1CRotG/PEDO_rThumbJ1C
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rThumbJ2CG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rThumbJ2CG/PEDO_rThumbJ2CRotG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rThumbJ3CG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rThumbJ3CG/PEDO_rThumbJ3CRotG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rWristJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rWristJ/PEDO_rPalmJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rWristJ/PEDO_rPalmJ/PEDO_rFinger1J1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rWristJ/PEDO_rPalmJ/PEDO_rFinger1J1/PEDO_rFinger1J2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rWristJ/PEDO_rPalmJ/PEDO_rFinger1J1/PEDO_rFinger1J2/PEDO_rFinger1J3
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rWristJ/PEDO_rPalmJ/PEDO_rFinger1J1/PEDO_rFinger1J2/PEDO_rFinger1J3/PEDO_rFinger1JTip
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rWristJ/PEDO_rThumbJ1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJG2/PEDO_rWristJG1/PEDO_rWristJ/PEDO_rThumbJ1/PEDO_rThumbJ2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJIKProxyG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJIKProxyG2/PEDO_rWristJIKProxyG1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_rWristJIKProxyG2/PEDO_rWristJIKProxyG1/PEDO_rWristJIKProxy
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_lHipJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_lHipJ/PEDO_SH_lKneeJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_lHipJ/PEDO_SH_lKneeJ/PEDO_SH_lAnkleJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_lHipJ/PEDO_SH_lKneeJ/PEDO_SH_lAnkleJ/PEDO_SH_lBallJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_lHipJ/PEDO_SH_lKneeJ/PEDO_SH_lAnkleJ/PEDO_SH_lBallJ/PEDO_SH_lToeJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_rHipJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_rHipJ/PEDO_SH_rKneeJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_rHipJ/PEDO_SH_rKneeJ/PEDO_SH_rAnkleJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_rHipJ/PEDO_SH_rKneeJ/PEDO_SH_rAnkleJ/PEDO_SH_rBallJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_rHipJ/PEDO_SH_rKneeJ/PEDO_SH_rAnkleJ/PEDO_SH_rBallJ/PEDO_SH_rToeJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lForearmJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lPalmJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lPalmJ/PEDO_SH_lFinger1J1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lPalmJ/PEDO_SH_lFinger1J1/PEDO_SH_lFinger1J2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lPalmJ/PEDO_SH_lFinger1J1/PEDO_SH_lFinger1J2/PEDO_SH_lFinger1J3
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lPalmJ/PEDO_SH_lFinger1J1/PEDO_SH_lFinger1J2/PEDO_SH_lFinger1J3/PEDO_SH_lFinger1JTip
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lThumbJ1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lThumbJ1/PEDO_SH_lThumbJ2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rForearmJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rPalmJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rPalmJ/PEDO_SH_rFinger1J1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rPalmJ/PEDO_SH_rFinger1J1/PEDO_SH_rFinger1J2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rPalmJ/PEDO_SH_rFinger1J1/PEDO_SH_rFinger1J2/PEDO_SH_rFinger1J3
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rPalmJ/PEDO_SH_rFinger1J1/PEDO_SH_rFinger1J2/PEDO_SH_rFinger1J3/PEDO_SH_rFinger1JTip
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rThumbJ1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rThumbJ1/PEDO_SH_rThumbJ2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine01CurveCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine01CurveCG/PEDO_Spine01CurveC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine01FKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine01FKCG/PEDO_Spine01FKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine01J
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine02CurveCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine02CurveCG/PEDO_Spine02CurveC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine02FKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine02FKCG/PEDO_Spine02FKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine02J
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine_ribbonSpineG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine_ribbonSpineG/PEDO_SpineBtm01JIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine_ribbonSpineG/PEDO_SpineMidJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_Spine_ribbonSpineG/PEDO_SpineTopJIK
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineMidIKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineMidIKCG/PEDO_SpineMidIKCG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineMidIKCG/PEDO_SpineMidIKCG2/PEDO_SpineMidIKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineMidIKCG/PEDO_SpineMidIKCG2/PEDO_SpineMidIKC/PEDO_SpineLengthCXlstr02
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineSplineBtm_ClusterG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineSplineBtm_ClusterG/PEDO_SpineSplineBtm_BtmClstr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineSplineMid_ClusterG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineSplineMid_ClusterG/PEDO_SpineSplineBtm_TopClstr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineSplineMid_ClusterG/PEDO_SpineSplineTop_BtmClstr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineSplineTop_ClusterG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineSplineTop_ClusterG/PEDO_SpineSplineTop_TopClstr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopFKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopFKCG/PEDO_SpineTopFKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopIKC_OrientLctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopIKCG
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopIKCG/PEDO_SpineTopIKC
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopIKCG/PEDO_SpineTopIKC/PEDO_NeckBtmTX_Lctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopIKCG/PEDO_SpineTopIKC/PEDO_NeckLengthCXlstr01
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopIKCG/PEDO_SpineTopIKC/PEDO_SpineLengthCXlstr03
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopIKCG/PEDO_SpineTopIKC/PEDO_SpineTopTX_Lctr
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopIKCG2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/joint1
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/joint1/joint2
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/joint1/joint2/polySurface51
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/PEDO_lClavicleJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/PEDO_lClavicleJ/PEDO_lShoulderJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/PEDO_lClavicleJ/PEDO_lShoulderJ/PEDO_lElbowJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/PEDO_lClavicleJ/PEDO_lShoulderJ/PEDO_lElbowJ/PEDO_lForearmJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/PEDO_lClavicleJ/PEDO_lShoulderJ/PEDO_lElbowJ/PEDO_lWristJProxy
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/PEDO_rClavicleJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/PEDO_rClavicleJ/PEDO_rShoulderJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/PEDO_rClavicleJ/PEDO_rShoulderJ/PEDO_rElbowJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/PEDO_rClavicleJ/PEDO_rShoulderJ/PEDO_rElbowJ/PEDO_rForearmJ
+        weight: 1
+      - path: PEDO/PEDO_MainC/PEDO_SpineTopJ/PEDO_rClavicleJ/PEDO_rShoulderJ/PEDO_rElbowJ/PEDO_rWristJProxy
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

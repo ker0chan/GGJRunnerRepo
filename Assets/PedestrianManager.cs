@@ -3,8 +3,8 @@ using System.Collections;
 
 public class PedestrianManager : MonoBehaviour {
 	
-	public float maxSpawnTime;
-	public float minSpawnTime;
+	public float maxDistance;
+	public float minDistance;
 	//Pedestrian prefab to instantiate
 	public GameObject prefab;
 	//Pedestrian GEOMETRY prefabs to instantiate
@@ -12,10 +12,13 @@ public class PedestrianManager : MonoBehaviour {
 	public PlayerController playerController;
 	public AudioClip[] sounds;
 
+	EnvironmentManager environmentManager;
+
 	float spawnTime;
 
 	// Use this for initialization
 	void Start () {
+		environmentManager = GameObject.FindGameObjectsWithTag ("Environment")[0].GetComponent<EnvironmentManager>();
 		resetSpawnTime ();
 	}
 	
@@ -31,7 +34,11 @@ public class PedestrianManager : MonoBehaviour {
 	
 	void resetSpawnTime()
 	{
-		spawnTime = Random.Range (minSpawnTime, maxSpawnTime);
+	
+		spawnTime = Random.Range (minDistance, maxDistance) / environmentManager.getRealSpeed ();
+		if (EnvironmentManager.currentZone != EnvironmentManager.DEFAULT) {
+			spawnTime *= 0.2f;
+		}
 	}
 
 	void Spawn()

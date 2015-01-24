@@ -4,7 +4,7 @@
 TagManager:
   tags:
   - Ground
-  - DecorPart
+  - Obstacle
   - Environment
   - 
   Builtin Layer 0: Default

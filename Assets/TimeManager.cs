@@ -23,10 +23,9 @@ public class TimeManager : MonoBehaviour {
 		timerGUIText.text = Mathf.Round (remainingTime).ToString ();
 
 		//Time Over
-		if (remainingTime <= 0.0f)
-		{
-			gameOverAnimator.SetTrigger ("GameOver");
-		}
+		if (remainingTime <= 0.0f) {
+						gameOverAnimator.SetTrigger ("GameOver");
+				}
 
 	}
 }

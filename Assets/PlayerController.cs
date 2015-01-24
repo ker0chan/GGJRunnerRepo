@@ -6,11 +6,13 @@ using System;
 public class PlayerController : MonoBehaviour {
 
 	public float switchingTime = 0.6f;
+	public float invincibilityDuration = 3.0f;
 	public float coatStep = 0.01f;
 	public float idleSoundPeriod = 1.5f;
-	public float footstepsSoundPeriod = 0.3f;
+	public float footstepsSoundPeriod = 2.5f;
+	public Animator gameOverAnimator;
 
-	//GUI Bindings
+	//GUI bindings
 	public Image coatLevelCursor;
 	public Text multiplierText;
 	public Text insaneScoreGUI;
@@ -21,16 +23,20 @@ public class PlayerController : MonoBehaviour {
 	public AudioClip[] idleSounds;
 	public AudioClip[] footstepsSounds;
 
+	//Sound bindings
 	public AudioSource jumpSound;
 	public AudioSource idleSound;
 	public AudioSource crouchSound;
 	public AudioSource footstepsSound;
 	public AudioSource openStepSound;
 	public AudioSource closeStepSound;
+	public AudioSource copsPursuitSound;
+	public AudioSource impactSound;
 
 	BoxCollider collider;
 	Animator animator;
-
+	EnvironmentManager environmentManager;
+	
 	string state = "running";
 	float switchingTimeRemaining = 0;
 	int lane = 0;
@@ -39,18 +45,24 @@ public class PlayerController : MonoBehaviour {
 	float footstepsSoundTime;
 	float insaneScore = 0.0f;
 	float saneScore = 0.0f;
+	bool copsPursuit = false;
+	float invincibilityTime = 0.0f;
 	
 	// Use this for initialization
 	void Start () {
 		collider = GetComponent<BoxCollider> ();
 		animator = GetComponent<Animator> ();
 		increaseScore (0);
+		environmentManager = GameObject.FindGameObjectsWithTag ("Environment")[0].GetComponent<EnvironmentManager>();
 	}
 
 	void OnTriggerEnter(Collider obstacle)
 	{
-		if (Time.realtimeSinceStartup > 2.0f) {
-			//print ("LOSE");
+		//print (obstacle.tag);
+		if(obstacle.tag == "Obstacle" && invincibilityTime == 0.0f)
+		{
+			hit();
+			//Destroy(obstacle.transform.gameObject);
 		}
 	}
 
@@ -63,7 +75,7 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		print ((Mathf.Round(saneScore)).ToString () + " " + (Mathf.Round(insaneScore)).ToString ());
+		//print ((Mathf.Round(saneScore)).ToString () + " " + (Mathf.Round(insaneScore)).ToString ());
 		//INPUT
 		//Jumping (both key pressed and running)
 		if (Input.GetKey (KeyCode.UpArrow) && Input.GetKey (KeyCode.Z) && getState () == "running") {
@@ -154,13 +166,20 @@ public class PlayerController : MonoBehaviour {
 		{
 			footstepsSound.clip = footstepsSounds[UnityEngine.Random.Range (0,footstepsSounds.Length)];
 			footstepsSound.Play();
-			footstepsSoundTime = footstepsSoundPeriod;
+			footstepsSoundTime = footstepsSoundPeriod / environmentManager.speed;
+		}
+
+		//Invincibility
+		invincibilityTime -= Time.deltaTime;
+		if (invincibilityTime < 0.0f) {
+			animator.SetBool ("blinking", false);
+			invincibilityTime = 0.0f;
 		}
 
 		//DebugText.content = getState ();
 		//DebugText.content = coatLevel.ToString ();
 		//print (coatLevelCursor.rectTransform.anchoredPosition);
-		print ((coatLevel - 0.5f) * 2.0f * 300.0f);
+		//print ((coatLevel - 0.5f) * 2.0f * 300.0f);
 		Vector2 coatLevelCursorPos = coatLevelCursor.rectTransform.anchoredPosition;
 		coatLevelCursorPos.x = (coatLevel - 0.5f) * 2.0f * 300.0f;
 		coatLevelCursor.rectTransform.anchoredPosition = coatLevelCursorPos;
@@ -178,7 +197,7 @@ public class PlayerController : MonoBehaviour {
 
 		//Stop the footsteps sound and reset their time
 		footstepsSound.Stop ();
-		footstepsSoundTime = footstepsSoundPeriod;
+		footstepsSoundTime = footstepsSoundPeriod / environmentManager.speed;
 
 		this.state = state;
 		animator.SetTrigger (state);
@@ -194,6 +213,20 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 
+	void hit()
+	{
+		impactSound.Play ();
+		if (!copsPursuit) {
+			copsPursuit = true;
+			copsPursuitSound.Play ();
+			environmentManager.impactSpeed();
+			animator.SetBool ("blinking", true);
+			invincibilityTime = invincibilityDuration;
+		} else {
+			gameOverAnimator.SetTrigger ("GameOver");
+		}
+	}
+	
 	public void increaseScore(float amount)
 	{
 		//How much of the multiplier bar is filled (either side)

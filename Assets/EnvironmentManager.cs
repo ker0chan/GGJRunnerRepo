@@ -3,9 +3,11 @@ using System.Collections;
 
 public class EnvironmentManager : MonoBehaviour {
 
-	public static float speed = 15.0f;
+	public float speed = 15.0f;
+	public float speedImpactValue = 6.0f;
 	public static int currentZone;
 	public float zoneCooldown;
+	public float defaultCooldown;
 
 	//Zones constants
 	public const int RETIREMENTHOME = 0;
@@ -29,6 +31,7 @@ public class EnvironmentManager : MonoBehaviour {
 	public static float[] pedestriansScore = {10.0f, 30.0f, 20.0f, 20.0f};
 
 	float currentZoneCooldown;
+	float speedModifier = 0.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -43,13 +46,29 @@ public class EnvironmentManager : MonoBehaviour {
 			if(currentZone != DEFAULT)
 			{ 
 				currentZone = DEFAULT;
+				currentZoneCooldown = defaultCooldown / getRealSpeed();
 			}
 			else 
 			{
 				currentZone = ZONES[Random.Range (0, ZONES.Length)];
+				currentZoneCooldown = zoneCooldown / getRealSpeed();
 			}
-
-			currentZoneCooldown = zoneCooldown;
 		}
+		//Impact deceleration
+		speedModifier -= Time.deltaTime;
+		if (speedModifier < 0.0f) {
+			speedModifier = 0.0f;
+		}
+	}
+
+	public void impactSpeed()
+	{
+		speedModifier = speed * 0.9f;
+	}
+
+	public float getRealSpeed()
+	{
+		//print (speed.ToString () + "   " + (speed - speedModifier).ToString ());
+		return speed - speedModifier;
 	}
 }

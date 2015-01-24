@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: 4a47458c18f2c3d449bddf47a7b4786b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: body
+    100002: chara
+    100004: exhib
+    100006: head04
+    100008: joint1
+    100010: joint2
+    100012: PEDO_SH_lAnkleJ
+    100014: PEDO_SH_lBallJ
+    100016: PEDO_SH_lClavicleJ
+    100018: PEDO_SH_lElbowJ
+    100020: PEDO_SH_lFinger1J1
+    100022: PEDO_SH_lFinger1J2
+    100024: PEDO_SH_lFinger1J3
+    100026: PEDO_SH_lFinger1JTip
+    100028: PEDO_SH_lForearmJ
+    100030: PEDO_SH_lHipJ
+    100032: PEDO_SH_lKneeJ
+    100034: PEDO_SH_lPalmJ
+    100036: PEDO_SH_lShoulderJ
+    100038: PEDO_SH_lThumbJ1
+    100040: PEDO_SH_lThumbJ2
+    100042: PEDO_SH_lToeJ
+    100044: PEDO_SH_lWristJ
+    100046: PEDO_SH_rAnkleJ
+    100048: PEDO_SH_rBallJ
+    100050: PEDO_SH_rClavicleJ
+    100052: PEDO_SH_rElbowJ
+    100054: PEDO_SH_rFinger1J1
+    100056: PEDO_SH_rFinger1J2
+    100058: PEDO_SH_rFinger1J3
+    100060: PEDO_SH_rFinger1JTip
+    100062: PEDO_SH_rForearmJ
+    100064: PEDO_SH_rHipJ
+    100066: PEDO_SH_rKneeJ
+    100068: PEDO_SH_ROOTJ
+    100070: PEDO_SH_rPalmJ
+    100072: PEDO_SH_rShoulderJ
+    100074: PEDO_SH_rThumbJ1
+    100076: PEDO_SH_rThumbJ2
+    100078: PEDO_SH_rToeJ
+    100080: PEDO_SH_rWristJ
+    100082: PEDO_SH_Spine01J
+    100084: PEDO_SH_Spine02J
+    100086: PEDO_SH_SpineTopJ
+    100088: //RootNode
+    100090: polySurface51
+    400000: body
+    400002: chara
+    400004: exhib
+    400006: head04
+    400008: joint1
+    400010: joint2
+    400012: PEDO_SH_lAnkleJ
+    400014: PEDO_SH_lBallJ
+    400016: PEDO_SH_lClavicleJ
+    400018: PEDO_SH_lElbowJ
+    400020: PEDO_SH_lFinger1J1
+    400022: PEDO_SH_lFinger1J2
+    400024: PEDO_SH_lFinger1J3
+    400026: PEDO_SH_lFinger1JTip
+    400028: PEDO_SH_lForearmJ
+    400030: PEDO_SH_lHipJ
+    400032: PEDO_SH_lKneeJ
+    400034: PEDO_SH_lPalmJ
+    400036: PEDO_SH_lShoulderJ
+    400038: PEDO_SH_lThumbJ1
+    400040: PEDO_SH_lThumbJ2
+    400042: PEDO_SH_lToeJ
+    400044: PEDO_SH_lWristJ
+    400046: PEDO_SH_rAnkleJ
+    400048: PEDO_SH_rBallJ
+    400050: PEDO_SH_rClavicleJ
+    400052: PEDO_SH_rElbowJ
+    400054: PEDO_SH_rFinger1J1
+    400056: PEDO_SH_rFinger1J2
+    400058: PEDO_SH_rFinger1J3
+    400060: PEDO_SH_rFinger1JTip
+    400062: PEDO_SH_rForearmJ
+    400064: PEDO_SH_rHipJ
+    400066: PEDO_SH_rKneeJ
+    400068: PEDO_SH_ROOTJ
+    400070: PEDO_SH_rPalmJ
+    400072: PEDO_SH_rShoulderJ
+    400074: PEDO_SH_rThumbJ1
+    400076: PEDO_SH_rThumbJ2
+    400078: PEDO_SH_rToeJ
+    400080: PEDO_SH_rWristJ
+    400082: PEDO_SH_Spine01J
+    400084: PEDO_SH_Spine02J
+    400086: PEDO_SH_SpineTopJ
+    400088: //RootNode
+    400090: polySurface51
+    2300000: polySurface51
+    3300000: polySurface51
+    4300000: body
+    4300002: head04
+    4300004: polySurface51
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: body
+    13700002: head04
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chara
+        weight: 1
+      - path: chara/exhib
+        weight: 1
+      - path: chara/exhib/body
+        weight: 1
+      - path: chara/exhib/head04
+        weight: 1
+      - path: PEDO_SH_ROOTJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_lHipJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_lHipJ/PEDO_SH_lKneeJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_lHipJ/PEDO_SH_lKneeJ/PEDO_SH_lAnkleJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_lHipJ/PEDO_SH_lKneeJ/PEDO_SH_lAnkleJ/PEDO_SH_lBallJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_lHipJ/PEDO_SH_lKneeJ/PEDO_SH_lAnkleJ/PEDO_SH_lBallJ/PEDO_SH_lToeJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_rHipJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_rHipJ/PEDO_SH_rKneeJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_rHipJ/PEDO_SH_rKneeJ/PEDO_SH_rAnkleJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_rHipJ/PEDO_SH_rKneeJ/PEDO_SH_rAnkleJ/PEDO_SH_rBallJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_rHipJ/PEDO_SH_rKneeJ/PEDO_SH_rAnkleJ/PEDO_SH_rBallJ/PEDO_SH_rToeJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint1
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint1/joint2
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint1/polySurface51
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lForearmJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lPalmJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lPalmJ/PEDO_SH_lFinger1J1
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lPalmJ/PEDO_SH_lFinger1J1/PEDO_SH_lFinger1J2
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lPalmJ/PEDO_SH_lFinger1J1/PEDO_SH_lFinger1J2/PEDO_SH_lFinger1J3
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lPalmJ/PEDO_SH_lFinger1J1/PEDO_SH_lFinger1J2/PEDO_SH_lFinger1J3/PEDO_SH_lFinger1JTip
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lThumbJ1
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ/PEDO_SH_lElbowJ/PEDO_SH_lWristJ/PEDO_SH_lThumbJ1/PEDO_SH_lThumbJ2
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rForearmJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rPalmJ
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rPalmJ/PEDO_SH_rFinger1J1
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rPalmJ/PEDO_SH_rFinger1J1/PEDO_SH_rFinger1J2
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rPalmJ/PEDO_SH_rFinger1J1/PEDO_SH_rFinger1J2/PEDO_SH_rFinger1J3
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rPalmJ/PEDO_SH_rFinger1J1/PEDO_SH_rFinger1J2/PEDO_SH_rFinger1J3/PEDO_SH_rFinger1JTip
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rThumbJ1
+        weight: 1
+      - path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ/PEDO_SH_rElbowJ/PEDO_SH_rWristJ/PEDO_SH_rThumbJ1/PEDO_SH_rThumbJ2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
