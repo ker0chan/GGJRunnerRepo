@@ -1,14 +1,22 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System;
 
 public class PlayerController : MonoBehaviour {
 
 	public float switchingTime = 0.6f;
-	public float coatStep = 0.05f;
+	public float coatStep = 0.01f;
 	public float idleSoundPeriod = 1.5f;
 	public float footstepsSoundPeriod = 0.3f;
 
+	//GUI Bindings
+	public Image coatLevelCursor;
+	public Text multiplierText;
+	public Text insaneScoreGUI;
+	public Text saneScoreGUI;
+
+	//Sound banks
 	public AudioClip[] jumpSounds;
 	public AudioClip[] idleSounds;
 	public AudioClip[] footstepsSounds;
@@ -36,6 +44,7 @@ public class PlayerController : MonoBehaviour {
 	void Start () {
 		collider = GetComponent<BoxCollider> ();
 		animator = GetComponent<Animator> ();
+		increaseScore (0);
 	}
 
 	void OnTriggerEnter(Collider obstacle)
@@ -150,6 +159,11 @@ public class PlayerController : MonoBehaviour {
 
 		//DebugText.content = getState ();
 		//DebugText.content = coatLevel.ToString ();
+		//print (coatLevelCursor.rectTransform.anchoredPosition);
+		print ((coatLevel - 0.5f) * 2.0f * 300.0f);
+		Vector2 coatLevelCursorPos = coatLevelCursor.rectTransform.anchoredPosition;
+		coatLevelCursorPos.x = (coatLevel - 0.5f) * 2.0f * 300.0f;
+		coatLevelCursor.rectTransform.anchoredPosition = coatLevelCursorPos;
 	}
 
 	string getState()
@@ -189,6 +203,9 @@ public class PlayerController : MonoBehaviour {
 			ratio = 0.9f;
 
 		float multiplier = (ratio / 0.9f)*3 + 1;
+
+		multiplierText.text = "x"+Mathf.Round(multiplier).ToString ();
+
 		if(coatLevel >= 0.5f)
 		{
 			saneScore += amount*multiplier;
@@ -197,5 +214,8 @@ public class PlayerController : MonoBehaviour {
 		{
 			insaneScore += amount*multiplier;
 		}
+
+		insaneScoreGUI.text = Mathf.Round (insaneScore).ToString ();
+		saneScoreGUI.text = Mathf.Round (saneScore).ToString ();
 	}
 }
