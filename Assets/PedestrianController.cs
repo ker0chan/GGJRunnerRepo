@@ -18,16 +18,16 @@ public class PedestrianController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (transform.position.x < playerController.transform.position.x && !counted)
+		if (transform.position.x < playerController.transform.position.x-30.0f && !counted)
 		{
-			if(Random.Range (0.0f,1.0f) < 0.3f)
+			if(Random.Range (0.0f,1.0f) < 0.6f)
 				sound.Play ();
 			playerController.increaseScore(EnvironmentManager.pedestriansScore[type]);
 			counted = true;
 		}
 		transform.Translate(new Vector3(-environmentManager.getRealSpeed() * Time.deltaTime, 0, 0));
 		
-		if(transform.position.x < -40.0f)
+		if(transform.position.x < -100.0f)
 		{
 			Destroy(gameObject);
 		}

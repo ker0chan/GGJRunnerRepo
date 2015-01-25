@@ -8,13 +8,13 @@ public class TimeManager : MonoBehaviour {
 	public Canvas mainCanvas;
 	public GameObject timerGUI;
 
-	Animator gameOverAnimator;
+	MenuController menuController;
 	Text timerGUIText;
 
 	// Use this for initialization
 	void Start () {
 		timerGUIText = timerGUI.GetComponent<Text> ();
-		gameOverAnimator = mainCanvas.GetComponent<Animator> ();
+		menuController = mainCanvas.GetComponent<MenuController> ();
 	}
 	
 	// Update is called once per frame
@@ -24,7 +24,7 @@ public class TimeManager : MonoBehaviour {
 
 		//Time Over
 		if (remainingTime <= 0.0f) {
-						gameOverAnimator.SetTrigger ("GameOver");
+			menuController.setState ("Victory");
 				}
 
 	}

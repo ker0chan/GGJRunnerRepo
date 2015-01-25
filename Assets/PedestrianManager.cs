@@ -12,32 +12,46 @@ public class PedestrianManager : MonoBehaviour {
 	public PlayerController playerController;
 	public AudioClip[] sounds;
 
+	//Remember the environment currentZone from last frame : You HAVE to try spawning asap if it did :)
+	int previousFrameZone;
+
 	EnvironmentManager environmentManager;
 
-	float spawnTime;
+	float currentDistance;
+	float currentTargetDistance;
 
 	// Use this for initialization
 	void Start () {
 		environmentManager = GameObject.FindGameObjectsWithTag ("Environment")[0].GetComponent<EnvironmentManager>();
-		resetSpawnTime ();
+		resetTargetDistance ();
+		previousFrameZone = EnvironmentManager.DEFAULT;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		spawnTime -= Time.deltaTime;
-		if (spawnTime <= 0.0f)
+	
+		//If we changed zone : we want to spawn as soon as possible ! Let's fake the traveled distance !
+		if (previousFrameZone != EnvironmentManager.currentZone)
 		{
-			resetSpawnTime ();
+			currentDistance = Mathf.Max (currentDistance, Random.Range(0.9f, 1.0f) * currentTargetDistance);
+		}
+		//Storing it for next frame.
+		previousFrameZone = EnvironmentManager.currentZone;
+
+		currentDistance += Time.deltaTime * environmentManager.getRealSpeed();
+		if (currentDistance >= currentTargetDistance)
+		{
+			resetTargetDistance ();
 			Spawn ();
 		}
 	}
 	
-	void resetSpawnTime()
+	void resetTargetDistance()
 	{
-	
-		spawnTime = Random.Range (minDistance, maxDistance) / environmentManager.getRealSpeed ();
+		currentDistance = 0.0f;
+		currentTargetDistance = Random.Range (minDistance, maxDistance);
 		if (EnvironmentManager.currentZone != EnvironmentManager.DEFAULT) {
-			spawnTime *= 0.2f;
+			currentTargetDistance *= 0.2f;
 		}
 	}
 
@@ -45,13 +59,14 @@ public class PedestrianManager : MonoBehaviour {
 	{
 		int type = getSpawnablePedestrian ();
 
-		GameObject pedestrian = (GameObject) Instantiate (prefab, new Vector3 (15, 0, Random.Range(3.5f, 5.5f)), new Quaternion (0, 0, 0, 0));
+		GameObject pedestrian = (GameObject) Instantiate (prefab, new Vector3 (0.0f, 0.0f, 0.0f), new Quaternion (0, 0, 0, 0));
 		pedestrian.GetComponent<PedestrianController> ().playerController = playerController;
 		pedestrian.GetComponent<AudioSource> ().clip = sounds [Random.Range (0, sounds.Length)];
 		pedestrian.GetComponent<PedestrianController> ().type = type;
 		GameObject pedestrianPrefab = (GameObject)Instantiate(prefabsList [type]);
 		pedestrianPrefab.transform.parent = pedestrian.transform;
-		pedestrianPrefab.transform.localPosition = new Vector3 (0, 0, 0);
+		//pedestrianPrefab.transform.localPosition = new Vector3 (0, 0, 0);
+		pedestrianPrefab.transform.Translate (new Vector3 (30.0f, 0.0f, Random.Range(3.5f, 5.5f)));
 	}
 
 	//Get a random Pedestrian identifier, according to the current zone

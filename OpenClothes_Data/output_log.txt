@@ -1,0 +1,79 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 820M      (ID=0x1140)
+    Vendor:   NVIDIA
+    VRAM:     1994 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Dimitri\Documents\GGJRunner\OpenClothes_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Dimitri\Documents\GGJRunner\OpenClothes_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Dimitri\Documents\GGJRunner\OpenClothes_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Dimitri\Documents\GGJRunner\OpenClothes_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Dimitri\Documents\GGJRunner\OpenClothes_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Dimitri\Documents\GGJRunner\OpenClothes_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.068 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
+Platform assembly: C:\Users\Dimitri\Documents\GGJRunner\OpenClothes_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Dimitri\Documents\GGJRunner\OpenClothes_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 5.455151 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 540.
+Total: 6.672254 ms (FindLiveObjects: 0.059871 ms CreateObjectMapping: 0.044903 ms MarkObjects: 0.340840 ms  DeleteObjects: 1.497643 ms)
+
+Spawning building type 3
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Spawning building type 3
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Spawning building type 0
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Spawning building type 3
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Spawning building type 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Spawning building type 3
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Spawning building type 0
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Spawning building type 3
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 1.472412 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 162 unused Assets to reduce memory usage. Loaded Objects now: 151.
+Total: 12.139380 ms (FindLiveObjects: 0.014540 ms CreateObjectMapping: 0.013257 ms MarkObjects: 0.148823 ms  DeleteObjects: 10.918429 ms)
+
+UnloadTime: 0.495650 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 542.
+Total: 1.106340 ms (FindLiveObjects: 0.026086 ms CreateObjectMapping: 0.017961 ms MarkObjects: 0.214682 ms  DeleteObjects: 0.219814 ms)
+
+Spawning building type 3
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Spawning building type 3
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+

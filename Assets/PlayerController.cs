@@ -10,7 +10,9 @@ public class PlayerController : MonoBehaviour {
 	public float coatStep = 0.01f;
 	public float idleSoundPeriod = 1.5f;
 	public float footstepsSoundPeriod = 2.5f;
-	public Animator gameOverAnimator;
+	public Canvas mainCanvas;
+	public float insaneScore = 0.0f;
+	public float saneScore = 0.0f;
 
 	//GUI bindings
 	public Image coatLevelCursor;
@@ -36,15 +38,17 @@ public class PlayerController : MonoBehaviour {
 	BoxCollider collider;
 	Animator animator;
 	EnvironmentManager environmentManager;
+	MenuController menuController;
+
+	bool closeCoatWasPressed = false;
+	bool openCoatWasPressed = false;
 	
 	string state = "running";
 	float switchingTimeRemaining = 0;
 	int lane = 0;
-	float coatLevel = 0.5f;
+	public float coatLevel = 0.5f;
 	float idleSoundTime;
 	float footstepsSoundTime;
-	float insaneScore = 0.0f;
-	float saneScore = 0.0f;
 	bool copsPursuit = false;
 	float invincibilityTime = 0.0f;
 	
@@ -54,6 +58,7 @@ public class PlayerController : MonoBehaviour {
 		animator = GetComponent<Animator> ();
 		increaseScore (0);
 		environmentManager = GameObject.FindGameObjectsWithTag ("Environment")[0].GetComponent<EnvironmentManager>();
+		menuController = mainCanvas.GetComponent<MenuController> ();
 	}
 
 	void OnTriggerEnter(Collider obstacle)
@@ -78,7 +83,9 @@ public class PlayerController : MonoBehaviour {
 		//print ((Mathf.Round(saneScore)).ToString () + " " + (Mathf.Round(insaneScore)).ToString ());
 		//INPUT
 		//Jumping (both key pressed and running)
-		if (Input.GetKey (KeyCode.UpArrow) && Input.GetKey (KeyCode.Z) && getState () == "running") {
+		if (((Input.GetKey (KeyCode.UpArrow) && Input.GetKey (KeyCode.Z)) ||
+		     (Input.GetButton ("Sane_Up") && Input.GetAxis ("Insane_Vertical") < 0.0f))
+		    && getState () == "running") {
 			setState("jumping");
 
 			jumpSound.clip = jumpSounds[UnityEngine.Random.Range (0,jumpSounds.Length)];
@@ -90,29 +97,39 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		//Crouching (both key pressed and running)
-		if (Input.GetKey (KeyCode.DownArrow) && Input.GetKey (KeyCode.S) && getState () == "running") {
-			setState("crouching");
+			if ( ((Input.GetKey (KeyCode.DownArrow) && Input.GetKey (KeyCode.S)) || 
+			    (Input.GetButton ("Sane_Down") && Input.GetAxis ("Insane_Vertical") > 0.0f)) &&
+			    getState () == "running") {
+				setState("crouching");
 
 			crouchSound.Play();
 		}
 		//Uncrouching (not both keys pressed + already crouching)
-		if ((!Input.GetKey (KeyCode.DownArrow) || !Input.GetKey (KeyCode.S)) && getState () == "crouching") {
+			if ( (!Input.GetKey (KeyCode.DownArrow) || !Input.GetKey (KeyCode.S)) && 
+				    (!Input.GetButton ("Sane_Down") || !(Input.GetAxis ("Insane_Vertical") > 0.0f)) &&
+				    getState () == "crouching") {
 			setState("running");
 		}
 
 		//Switching left
-		if (Input.GetKey (KeyCode.LeftArrow) && Input.GetKey (KeyCode.Q) && switchingTimeRemaining <= 0.0f) {
+		if ( ((Input.GetKey (KeyCode.LeftArrow) && Input.GetKey (KeyCode.Q)) || 
+		      (Input.GetButton ("Sane_Left") && Input.GetAxis ("Insane_Horizontal") < 0.0f)) && 
+		    switchingTimeRemaining <= 0.0f) {
 			lane = Math.Min (lane+1, 1);
 			switchingTimeRemaining = switchingTime;
 		}
 		//Switching right
-		if (Input.GetKey (KeyCode.RightArrow) && Input.GetKey (KeyCode.D) && switchingTimeRemaining <= 0.0f) {
+		if ( ((Input.GetKey (KeyCode.RightArrow) && Input.GetKey (KeyCode.D)) || 
+		      (Input.GetButton ("Sane_Right") && Input.GetAxis ("Insane_Horizontal") > 0.0f)) && 
+		    switchingTimeRemaining <= 0.0f) {
 			lane = Math.Max (lane-1, -1);
 			switchingTimeRemaining = switchingTime;
 		}
 
+		print (Input.GetAxis ("Insane_Horizontal"));
+
 		//"Close Clothes"
-		if (Input.GetKeyDown (KeyCode.Space) && getCoatState() != "closed")
+		if ((Input.GetKeyDown (KeyCode.Space) || (Input.GetAxis ("Coat_Axis") > 0.0f && !closeCoatWasPressed) ) && getCoatState() != "closed")
 		{
 			coatLevel -= coatStep;
 			closeStepSound.Play();
@@ -122,8 +139,9 @@ public class PlayerController : MonoBehaviour {
 				//closeStepSound.Play();
 			}
 		}
+		closeCoatWasPressed = Input.GetAxis ("Coat_Axis") > 0.0f;
 		//"Open Clothes" !
-		if (Input.GetKeyDown (KeyCode.RightControl) && getCoatState() != "open")
+		if ((Input.GetKeyDown (KeyCode.RightControl) ||  (Input.GetAxis ("Coat_Axis") < 0.0f && !openCoatWasPressed)) && getCoatState() != "open")
 		{
 			coatLevel += coatStep;
 			openStepSound.Play();
@@ -133,6 +151,7 @@ public class PlayerController : MonoBehaviour {
 				//openStepSound.Play();
 			}
 		}
+		openCoatWasPressed = Input.GetAxis ("Coat_Axis") < 0.0f;
 
 		// UPDATE
 		//Resize collider on crouching
@@ -197,7 +216,7 @@ public class PlayerController : MonoBehaviour {
 
 		//Stop the footsteps sound and reset their time
 		footstepsSound.Stop ();
-		footstepsSoundTime = footstepsSoundPeriod / environmentManager.speed;
+		footstepsSoundTime = footstepsSoundPeriod / environmentManager.getRealSpeed();
 
 		this.state = state;
 		animator.SetTrigger (state);
@@ -223,7 +242,7 @@ public class PlayerController : MonoBehaviour {
 			animator.SetBool ("blinking", true);
 			invincibilityTime = invincibilityDuration;
 		} else {
-			gameOverAnimator.SetTrigger ("GameOver");
+			menuController.setState ("GameOver");
 		}
 	}
 	
