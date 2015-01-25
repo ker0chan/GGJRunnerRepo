@@ -19,57 +19,57 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -.0868129134
+        value: .5
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
-        value: -.0868129134
+      - time: 1
+        value: .5
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: material._Color.r
-    path: le_cube02/pCube1
+    path: exhib/body
     classID: 137
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: .0028424859
+        value: .5
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
-        value: .0028424859
+      - time: 1
+        value: .5
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: material._Color.g
-    path: le_cube02/pCube1
+    path: exhib/body
     classID: 137
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: .913187087
+        value: .5
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
-        value: .913187087
+      - time: 1
+        value: .5
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: material._Color.b
-    path: le_cube02/pCube1
+    path: exhib/body
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -77,33 +77,23 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - time: .116666675
-        value: -.992614448
-        inSlope: -.0441582203
-        outSlope: -.0441582203
-        tangentMode: 0
-      - time: .150000006
-        value: -.995550632
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - time: .25
-        value: .993897498
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - time: .300000012
-        value: .991598248
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        inSlope: -3.49566078
+        outSlope: -3.49566078
+        tangentMode: 10
+      - time: .366666675
+        value: -.281742334
+        inSlope: -.735928535
+        outSlope: -.735928535
+        tangentMode: 10
+      - time: 1
+        value: 1
+        inSlope: 2.02380371
+        outSlope: 2.02380371
+        tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: material._Color.a
-    path: le_cube02/pCube1
+    path: exhib/body
     classID: 137
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -114,25 +104,25 @@ AnimationClip:
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
     genericBindings:
-    - path: 3638760295
+    - path: 2120136349
       attribute: 2108656497
       script: {fileID: 0}
       classID: 137
       customType: 22
       isPPtrCurve: 0
-    - path: 3638760295
+    - path: 2120136349
       attribute: 1303350129
       script: {fileID: 0}
       classID: 137
       customType: 22
       isPPtrCurve: 0
-    - path: 3638760295
+    - path: 2120136349
       attribute: 1571785585
       script: {fileID: 0}
       classID: 137
       customType: 22
       isPPtrCurve: 0
-    - path: 3638760295
+    - path: 2120136349
       attribute: 1840221041
       script: {fileID: 0}
       classID: 137
@@ -142,7 +132,7 @@ AnimationClip:
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: .300000012
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -161,57 +151,57 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -.0868129134
+        value: .5
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
-        value: -.0868129134
+      - time: 1
+        value: .5
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: material._Color.r
-    path: le_cube02/pCube1
+    path: exhib/body
     classID: 137
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: .0028424859
+        value: .5
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
-        value: .0028424859
+      - time: 1
+        value: .5
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: material._Color.g
-    path: le_cube02/pCube1
+    path: exhib/body
     classID: 137
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: .913187087
+        value: .5
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
-        value: .913187087
+      - time: 1
+        value: .5
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: material._Color.b
-    path: le_cube02/pCube1
+    path: exhib/body
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -219,33 +209,23 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - time: .116666675
-        value: -.992614448
-        inSlope: -.0441582203
-        outSlope: -.0441582203
-        tangentMode: 0
-      - time: .150000006
-        value: -.995550632
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - time: .25
-        value: .993897498
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - time: .300000012
-        value: .991598248
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        inSlope: -3.49566078
+        outSlope: -3.49566078
+        tangentMode: 10
+      - time: .366666675
+        value: -.281742334
+        inSlope: -.735928535
+        outSlope: -.735928535
+        tangentMode: 10
+      - time: 1
+        value: 1
+        inSlope: 2.02380371
+        outSlope: 2.02380371
+        tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: material._Color.a
-    path: le_cube02/pCube1
+    path: exhib/body
     classID: 137
     script: {fileID: 0}
   m_EulerEditorCurves: []

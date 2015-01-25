@@ -15,20 +15,77 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: .189714253, y: .978515804, z: -.0649933517, w: .0478663445}
+        value: {x: .103444152, y: -.32759586, z: -.0915337428, w: .934666753}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint4/joint5
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: .0117113506, y: .460746408, z: -.165659979, w: -.871855736}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 7209061
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: .0642224625, y: .517469406, z: -.124801442, w: -.844112337}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: .206464753, y: .973530471, z: -.052172225, w: .0829986483}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
     path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: -.39261055, y: -.642334461, z: .128367662, w: .645588994}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        value: {x: -.171507075, y: 8.54431619e-07, z: -4.81105417e-06}
+        inSlope: {x: 0, y: 0, z: 8.16287866e-06}
+        outSlope: {x: 0, y: 0, z: 8.16287866e-06}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint4/joint5
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -.034577582, y: 4.02331352e-07, z: -8.27124836e-07}
+        inSlope: {x: 0, y: 0, z: 1.29271666e-06}
+        outSlope: {x: 0, y: 0, z: 1.29271666e-06}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: .0345780849, y: -4.20957804e-07, z: -1.19246295e-06}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -37,48 +94,13 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: .0932479426, y: -.250116646, z: -.0669239759, w: .961388409}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 118534672
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint4/joint5
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: {x: .300664902, y: -.531929016, z: .035040345, w: .790837705}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
-  m_CompressedRotationCurves: []
-  m_PositionCurves:
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: {x: -.171506196, y: 7.25066172e-07, z: -4.08143933e-06}
+        value: {x: .12312457, y: -.0433518626, z: .111237757}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint4/joint5
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: {x: -.034577053, y: 4.02331352e-07, z: -6.4635833e-07}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -101,7 +123,19 @@ AnimationClip:
       classID: 4
       customType: 0
       isPPtrCurve: 0
+    - path: 2532911148
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
     - path: 4270986637
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 818066522
       attribute: 2
       script: {fileID: 0}
       classID: 4
@@ -113,13 +147,13 @@ AnimationClip:
       classID: 4
       customType: 0
       isPPtrCurve: 0
-    - path: 818066522
+    - path: 384500041
       attribute: 2
       script: {fileID: 0}
       classID: 4
       customType: 0
       isPPtrCurve: 0
-    - path: 384500041
+    - path: 4270986637
       attribute: 2
       script: {fileID: 0}
       classID: 4
@@ -148,105 +182,63 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: .189714253
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: m_LocalRotation.x
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: .978515804
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: m_LocalRotation.y
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: -.0649933517
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: m_LocalRotation.z
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: .0478663445
+        value: .934666753
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: m_LocalRotation.w
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint4/joint5
     classID: 4
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -.39261055
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: m_LocalRotation.x
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: -.642334461
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: m_LocalRotation.y
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: .128367662
+        value: -.0915337428
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: m_LocalRotation.z
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint4/joint5
     classID: 4
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: .645588994
+        value: -.32759586
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint4/joint5
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .103444152
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint4/joint5
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.871855736
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -260,9 +252,51 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -4.08143933e-06
+        value: -.165659979
         inSlope: 0
         outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .460746408
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .0117113506
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -4.81105417e-06
+        inSlope: 8.16287866e-06
+        outSlope: 8.16287866e-06
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -274,9 +308,9 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 7.25066172e-07
-        inSlope: 0
-        outSlope: 0
+        value: 8.54431619e-07
+        inSlope: -1.45013234e-06
+        outSlope: -1.45013234e-06
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -288,9 +322,9 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -.171506196
-        inSlope: 0
-        outSlope: 0
+        value: -.171507075
+        inSlope: 1.01029873e-05
+        outSlope: 1.01029873e-05
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -302,65 +336,65 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: .0932479426
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: m_LocalRotation.x
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint4/joint5
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: -.250116646
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: m_LocalRotation.y
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint4/joint5
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: -.0669239759
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: m_LocalRotation.z
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint4/joint5
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: .961388409
+        value: -.844112337
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: m_LocalRotation.w
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint4/joint5
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
     classID: 4
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -6.4635833e-07
+        value: -.124801442
         inSlope: 0
         outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .517469406
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .0642224625
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -8.27124836e-07
+        inSlope: 1.29271666e-06
+        outSlope: 1.29271666e-06
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -373,8 +407,8 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: 4.02331352e-07
-        inSlope: 0
-        outSlope: 0
+        inSlope: -8.04662704e-07
+        outSlope: -8.04662704e-07
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -386,9 +420,9 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -.034577053
-        inSlope: 0
-        outSlope: 0
+        value: -.034577582
+        inSlope: 4.36604023e-06
+        outSlope: 4.36604023e-06
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -400,56 +434,140 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: .300664902
+        value: -1.19246295e-06
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -4.20957804e-07
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .0345780849
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_rClavicleJ/PEDO_SH_rShoulderJ
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .111237757
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.0433518626
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .12312457
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .206464753
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: m_LocalRotation.x
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
     classID: 4
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -.531929016
+        value: .973530471
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: m_LocalRotation.y
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
     classID: 4
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: .035040345
+        value: -.052172225
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: m_LocalRotation.z
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
     classID: 4
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: .790837705
+        value: .0829986483
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: m_LocalRotation.w
-    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/PEDO_SH_lClavicleJ/PEDO_SH_lShoulderJ
+    path: PEDO_SH_ROOTJ/PEDO_SH_Spine01J/PEDO_SH_Spine02J/PEDO_SH_SpineTopJ/joint12/joint11/joint8
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -457,7 +575,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 8.35788918
+        value: 7.80806923
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -471,7 +589,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 176
+        value: 171.872833
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -485,7 +603,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 21.6523247
+        value: 23.3920097
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -499,7 +617,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -20
+        value: 7.59866333
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -513,7 +631,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -98.165863
+        value: 305.467896
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -527,7 +645,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 45.4898987
+        value: 17.5963898
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -541,7 +659,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 8.38461494
+        value: 7.66607857
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -555,7 +673,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -29.9160271
+        value: -39.569706
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -569,7 +687,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -10.2078629
+        value: -13.9477615
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -583,7 +701,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 30.8526688
+        value: 1.18839455
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -597,7 +715,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -72.8389587
+        value: 297.148621
         inSlope: 0
         outSlope: 0
         tangentMode: 10
@@ -611,7 +729,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -17.9406891
+        value: 16.0942841
         inSlope: 0
         outSlope: 0
         tangentMode: 10

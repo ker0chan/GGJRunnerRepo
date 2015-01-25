@@ -33,7 +33,7 @@ public class EnvironmentManager : MonoBehaviour {
 		{0.0f, 0.0f, 1.0f, 0.0f},
 		{0.25f, 0.25f, 0.25f, 0.25f},
 	};
-	public static float[] pedestriansScore = {10.0f, 30.0f, 20.0f, 20.0f};
+	public static float[] pedestriansScore = {20.0f, 30.0f, 20.0f, 20.0f};
 
 	float currentDistance;
 	float speedModifier = 0.0f;

@@ -55,7 +55,8 @@ public class PlayerController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		collider = GetComponent<BoxCollider> ();
-		animator = GetComponent<Animator> ();
+		//animator = GetComponent<Animator> ();
+		animator = GetComponentInChildren<Animator> ();
 		increaseScore (0);
 		environmentManager = GameObject.FindGameObjectsWithTag ("Environment")[0].GetComponent<EnvironmentManager>();
 		menuController = mainCanvas.GetComponent<MenuController> ();
@@ -67,13 +68,12 @@ public class PlayerController : MonoBehaviour {
 		if(obstacle.tag == "Obstacle" && invincibilityTime == 0.0f)
 		{
 			hit();
-			//Destroy(obstacle.transform.gameObject);
 		}
 	}
 
 	void OnCollisionEnter(Collision collision) 
 	{
-		if (collision.collider.tag == "Ground") {
+		if (collision.collider.tag == "Ground" && getState () == "jumping") {
 			setState("running");
 		}
 	}
@@ -92,7 +92,7 @@ public class PlayerController : MonoBehaviour {
 			jumpSound.Play();
 
 			Vector3 v = rigidbody.velocity;
-			v.y = 5;
+			v.y = 6;
 			rigidbody.velocity = v;
 		}
 
@@ -126,8 +126,6 @@ public class PlayerController : MonoBehaviour {
 			switchingTimeRemaining = switchingTime;
 		}
 
-		print (Input.GetAxis ("Insane_Horizontal"));
-
 		//"Close Clothes"
 		if ((Input.GetKeyDown (KeyCode.Space) || (Input.GetAxis ("Coat_Axis") > 0.0f && !closeCoatWasPressed) ) && getCoatState() != "closed")
 		{
@@ -138,6 +136,7 @@ public class PlayerController : MonoBehaviour {
 				coatLevel = 0.0f;
 				//closeStepSound.Play();
 			}
+			animator.SetBool ("openCoat", false);
 		}
 		closeCoatWasPressed = Input.GetAxis ("Coat_Axis") > 0.0f;
 		//"Open Clothes" !
@@ -150,6 +149,7 @@ public class PlayerController : MonoBehaviour {
 				coatLevel = 1.0f;
 				//openStepSound.Play();
 			}
+			animator.SetBool ("openCoat", true);
 		}
 		openCoatWasPressed = Input.GetAxis ("Coat_Axis") < 0.0f;
 
