@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/Victory.unity
   - enabled: 1
     path: Assets/GameOver.unity
+  - enabled: 1
+    path: Assets/Tutorial.unity

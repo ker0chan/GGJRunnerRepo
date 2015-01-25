@@ -22,13 +22,19 @@ public class EndGameScoreController : MonoBehaviour {
 
 		if(EndGameScoreController.finalSaneScore > EndGameScoreController.finalInsaneScore)
 		{
-			victoryScoreText.text = "Congratulations, sane player (on the right). You've paired well enough with your troubled second self, and kept control of your trench coat (and body image) long enough to run away !";
+			victoryScoreText.text = "Congratulations, sane player (on the right). " +
+				"You've paired well enough with your troubled second self, " +
+				"and kept control of your trench coat (and body image) long enough to run away !";
 		} else if (EndGameScoreController.finalSaneScore < EndGameScoreController.finalInsaneScore)
 		{
-			victoryScoreText.text = "Congratulations, insane player (on the left). You followed your pulsions and fought your good manners fiercely enough to proudely show the world the wonders of your undercoat !";
+			victoryScoreText.text = "Congratulations, insane player (on the left). " +
+				"You followed your pulsions and fought your good manners fiercely enough " +
+				"to proudely show the world the wonders of your undercoat !";
 		} else 
 		{
-			victoryScoreText.text = "Looks like you found the secret Cooperation Mode ! It means you're playtesting our game, aren't you ? Or maybe you didn't read the tutorial. Wait, have we created the tutorial yet ?..";
+			victoryScoreText.text = "Looks like you found the secret Cooperation Mode ! " +
+				"It means you're playtesting our game, aren't you ? " +
+				"Or maybe you didn't read the tutorial. Wait, have we created the tutorial yet ?..";
 		}
 	}
 }

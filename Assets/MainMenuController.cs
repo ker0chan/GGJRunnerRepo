@@ -22,7 +22,7 @@ public class MainMenuController : MonoBehaviour {
 		}
 		if(started && countdown <= 0.0f)
 		{
-			Application.LoadLevel (1);
+			Application.LoadLevel (4);
 		}
 		countdown -= Time.deltaTime;
 	}
